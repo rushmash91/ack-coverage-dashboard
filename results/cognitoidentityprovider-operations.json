@@ -1,0 +1,693 @@
+{
+  "service_name": "cognitoidentityprovider",
+  "total_operations": 114,
+  "supported_operations": 10,
+  "control_plane_operations": 58,
+  "supported_control_plane_operations": 10,
+  "operations": [
+    {
+      "name": "AdminCreateUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/delta.go",
+      "line": 57
+    },
+    {
+      "name": "CreateUserPool",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/sdk.go",
+      "line": 552
+    },
+    {
+      "name": "DeleteUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/sdk.go",
+      "line": 1669
+    },
+    {
+      "name": "DeleteUserPool",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/sdk.go",
+      "line": 1669
+    },
+    {
+      "name": "DescribeUserPool",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/sdk.go",
+      "line": 496
+    },
+    {
+      "name": "SignUp",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/delta.go",
+      "line": 280
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/hook.go",
+      "line": 11
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/hook.go",
+      "line": 11
+    },
+    {
+      "name": "UpdateUserPool",
+      "type": "control_plane",
+      "file": "pkg/resource/user_pool/sdk.go",
+      "line": 1356
+    },
+    {
+      "name": "AddCustomAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminAddUserToGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminConfirmSignUp",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminDeleteUser",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminDeleteUserAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminDisableProviderForUser",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminDisableUser",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminEnableUser",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminForgetDevice",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminGetDevice",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminGetUser",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminInitiateAuth",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminLinkProviderForUser",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminListDevices",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminListGroupsForUser",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminListUserAuthEvents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminRemoveUserFromGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminResetUserPassword",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminRespondToAuthChallenge",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminSetUserMFAPreference",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminSetUserPassword",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminSetUserSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminUpdateAuthEventFeedback",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminUpdateDeviceStatus",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminUpdateUserAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdminUserGlobalSignOut",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateSoftwareToken",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ChangePassword",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CompleteWebAuthnRegistration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ConfirmDevice",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ConfirmForgotPassword",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ConfirmSignUp",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateIdentityProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateManagedLoginBranding",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateResourceServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateUserImportJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateUserPoolClient",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateUserPoolDomain",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIdentityProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteManagedLoginBranding",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteResourceServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteUserAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteUserPoolClient",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteUserPoolDomain",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteWebAuthnCredential",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIdentityProvider",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeManagedLoginBranding",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeManagedLoginBrandingByClient",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeResourceServer",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRiskConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeUserImportJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeUserPoolClient",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeUserPoolDomain",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ForgetDevice",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ForgotPassword",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCSVHeader",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDevice",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIdentityProviderByIdentifier",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetLogDeliveryConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSigningCertificate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTokensFromRefreshToken",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetUICustomization",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetUser",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetUserAttributeVerificationCode",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetUserAuthFactors",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetUserPoolMfaConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GlobalSignOut",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "InitiateAuth",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDevices",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListIdentityProviders",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResourceServers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUserImportJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUserPoolClients",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUserPools",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUsers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUsersInGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListWebAuthnCredentials",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResendConfirmationCode",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RespondToAuthChallenge",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RevokeToken",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetLogDeliveryConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetRiskConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetUICustomization",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetUserMFAPreference",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetUserPoolMfaConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetUserSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartUserImportJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartWebAuthnRegistration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopUserImportJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAuthEventFeedback",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDeviceStatus",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateIdentityProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateManagedLoginBranding",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateResourceServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateUserAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateUserPoolClient",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateUserPoolDomain",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifySoftwareToken",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifyUserAttribute",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "service_name": "eks",
+  "total_operations": 57,
+  "supported_operations": 36,
+  "control_plane_operations": 41,
+  "supported_control_plane_operations": 36,
+  "operations": [
+    {
+      "name": "AssociateAccessPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/access_entry/hooks.go",
+      "line": 80
+    },
+    {
+      "name": "AssociateEncryptionConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hook.go",
+      "line": 636
+    },
+    {
+      "name": "AssociateIdentityProviderConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/identity_provider_config/sdk.go",
+      "line": 186
+    },
+    {
+      "name": "CreateAccessEntry",
+      "type": "control_plane",
+      "file": "pkg/resource/access_entry/sdk.go",
+      "line": 191
+    },
+    {
+      "name": "CreateAddon",
+      "type": "control_plane",
+      "file": "pkg/resource/addon/sdk.go",
+      "line": 249
+    },
+    {
+      "name": "CreateCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 464
+    },
+    {
+      "name": "CreateFargateProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/fargate_profile/sdk.go",
+      "line": 223
+    },
+    {
+      "name": "CreateNodegroup",
+      "type": "control_plane",
+      "file": "pkg/resource/nodegroup/sdk.go",
+      "line": 359
+    },
+    {
+      "name": "CreatePodIdentityAssociation",
+      "type": "control_plane",
+      "file": "pkg/resource/pod_identity_association/sdk.go",
+      "line": 209
+    },
+    {
+      "name": "DeleteAccessEntry",
+      "type": "control_plane",
+      "file": "pkg/resource/access_entry/sdk.go",
+      "line": 423
+    },
+    {
+      "name": "DeleteAddon",
+      "type": "control_plane",
+      "file": "pkg/resource/addon/sdk.go",
+      "line": 562
+    },
+    {
+      "name": "DeleteCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 1040
+    },
+    {
+      "name": "DeleteFargateProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/fargate_profile/sdk.go",
+      "line": 393
+    },
+    {
+      "name": "DeleteNodegroup",
+      "type": "control_plane",
+      "file": "pkg/resource/nodegroup/sdk.go",
+      "line": 761
+    },
+    {
+      "name": "DeletePodIdentityAssociation",
+      "type": "control_plane",
+      "file": "pkg/resource/pod_identity_association/sdk.go",
+      "line": 500
+    },
+    {
+      "name": "DescribeAccessEntry",
+      "type": "control_plane",
+      "file": "pkg/resource/access_entry/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeAddon",
+      "type": "control_plane",
+      "file": "pkg/resource/addon/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeFargateProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/fargate_profile/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeIdentityProviderConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/identity_provider_config/sdk.go",
+      "line": 83
+    },
+    {
+      "name": "DescribeNodegroup",
+      "type": "control_plane",
+      "file": "pkg/resource/nodegroup/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribePodIdentityAssociation",
+      "type": "control_plane",
+      "file": "pkg/resource/addon/hooks.go",
+      "line": 162
+    },
+    {
+      "name": "DisassociateAccessPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/access_entry/hooks.go",
+      "line": 90
+    },
+    {
+      "name": "DisassociateIdentityProviderConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/identity_provider_config/sdk.go",
+      "line": 291
+    },
+    {
+      "name": "ListAssociatedAccessPolicies",
+      "type": "control_plane",
+      "file": "pkg/resource/access_entry/hooks.go",
+      "line": 37
+    },
+    {
+      "name": "ListNodegroups",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hook.go",
+      "line": 601
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 37
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 37
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 37
+    },
+    {
+      "name": "UpdateAccessEntry",
+      "type": "control_plane",
+      "file": "pkg/resource/access_entry/sdk.go",
+      "line": 321
+    },
+    {
+      "name": "UpdateAddon",
+      "type": "control_plane",
+      "file": "pkg/resource/addon/sdk.go",
+      "line": 471
+    },
+    {
+      "name": "UpdateClusterConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hook.go",
+      "line": 482
+    },
+    {
+      "name": "UpdateClusterVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hook.go",
+      "line": 460
+    },
+    {
+      "name": "UpdateNodegroupConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/nodegroup/hook.go",
+      "line": 565
+    },
+    {
+      "name": "UpdateNodegroupVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/nodegroup/hook.go",
+      "line": 315
+    },
+    {
+      "name": "UpdatePodIdentityAssociation",
+      "type": "control_plane",
+      "file": "pkg/resource/pod_identity_association/sdk.go",
+      "line": 367
+    },
+    {
+      "name": "CreateEksAnywhereSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteEksAnywhereSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAddonConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAddonVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClusterVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEksAnywhereSubscription",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInsight",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeUpdate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAccessEntries",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAccessPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAddons",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClusters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEksAnywhereSubscriptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFargateProfiles",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListIdentityProviderConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInsights",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPodIdentityAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUpdates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateEksAnywhereSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

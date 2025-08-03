@@ -1,0 +1,339 @@
+{
+  "service_name": "documentdb",
+  "total_operations": 55,
+  "supported_operations": 16,
+  "control_plane_operations": 42,
+  "supported_control_plane_operations": 16,
+  "operations": [
+    {
+      "name": "AddTagsToResource",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 219
+    },
+    {
+      "name": "CreateDBCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/sdk.go",
+      "line": 393
+    },
+    {
+      "name": "CreateDBInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/sdk.go",
+      "line": 450
+    },
+    {
+      "name": "CreateDBSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_subnet_group/sdk.go",
+      "line": 213
+    },
+    {
+      "name": "DeleteDBCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/sdk.go",
+      "line": 762
+    },
+    {
+      "name": "DeleteDBInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/sdk.go",
+      "line": 1264
+    },
+    {
+      "name": "DeleteDBSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_subnet_group/sdk.go",
+      "line": 439
+    },
+    {
+      "name": "DescribeDBClusters",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeDBInstances",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeDBSubnetGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/db_subnet_group/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 242
+    },
+    {
+      "name": "ModifyDBCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/custom_update.go",
+      "line": 33
+    },
+    {
+      "name": "ModifyDBInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/sdk.go",
+      "line": 884
+    },
+    {
+      "name": "ModifyDBSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_subnet_group/sdk.go",
+      "line": 332
+    },
+    {
+      "name": "RemoveTagsFromResource",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 203
+    },
+    {
+      "name": "RestoreDBClusterFromSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 162
+    },
+    {
+      "name": "AddSourceIdentifierToSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ApplyPendingMaintenanceAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyDBClusterSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDBClusterSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateEventSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDBClusterSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteEventSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCertificates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBClusterParameterGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBClusterParameters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBClusterSnapshotAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBClusterSnapshots",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBEngineVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEngineDefaultClusterParameters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEventCategories",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEvents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEventSubscriptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeGlobalClusters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeOrderableDBInstanceOptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePendingMaintenanceActions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "FailoverDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "FailoverGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDBClusterSnapshotAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyEventSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebootDBInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveFromGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveSourceIdentifierFromSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreDBClusterToPointInTime",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SwitchoverGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

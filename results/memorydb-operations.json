@@ -1,0 +1,267 @@
+{
+  "service_name": "memorydb",
+  "total_operations": 43,
+  "supported_operations": 31,
+  "control_plane_operations": 37,
+  "supported_control_plane_operations": 31,
+  "operations": [
+    {
+      "name": "CopySnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/snapshot/hooks.go",
+      "line": 57
+    },
+    {
+      "name": "CreateACL",
+      "type": "control_plane",
+      "file": "pkg/resource/acl/sdk.go",
+      "line": 204
+    },
+    {
+      "name": "CreateCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 417
+    },
+    {
+      "name": "CreateParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/parameter_group/sdk.go",
+      "line": 180
+    },
+    {
+      "name": "CreateSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/snapshot/hooks.go",
+      "line": 49
+    },
+    {
+      "name": "CreateSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/subnet_group/sdk.go",
+      "line": 202
+    },
+    {
+      "name": "CreateUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/sdk.go",
+      "line": 205
+    },
+    {
+      "name": "DeleteACL",
+      "type": "control_plane",
+      "file": "pkg/resource/acl/sdk.go",
+      "line": 475
+    },
+    {
+      "name": "DeleteCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 1182
+    },
+    {
+      "name": "DeleteParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/parameter_group/sdk.go",
+      "line": 284
+    },
+    {
+      "name": "DeleteSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/snapshot/sdk.go",
+      "line": 473
+    },
+    {
+      "name": "DeleteSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/subnet_group/sdk.go",
+      "line": 449
+    },
+    {
+      "name": "DeleteUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/sdk.go",
+      "line": 477
+    },
+    {
+      "name": "DescribeACLs",
+      "type": "control_plane",
+      "file": "pkg/resource/acl/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeClusters",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeEvents",
+      "type": "control_plane",
+      "file": "pkg/resource/acl/hooks.go",
+      "line": 56
+    },
+    {
+      "name": "DescribeParameterGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/parameter_group/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeParameters",
+      "type": "control_plane",
+      "file": "pkg/resource/parameter_group/hooks.go",
+      "line": 71
+    },
+    {
+      "name": "DescribeSnapshots",
+      "type": "control_plane",
+      "file": "pkg/resource/snapshot/hooks.go",
+      "line": 38
+    },
+    {
+      "name": "DescribeSubnetGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/subnet_group/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeUsers",
+      "type": "control_plane",
+      "file": "pkg/resource/user/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "ListAllowedNodeTypeUpdates",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 103
+    },
+    {
+      "name": "ListTags",
+      "type": "control_plane",
+      "file": "pkg/resource/acl/hooks.go",
+      "line": 79
+    },
+    {
+      "name": "ResetParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/parameter_group/hooks.go",
+      "line": 127
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/acl/hooks.go",
+      "line": 135
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/acl/hooks.go",
+      "line": 120
+    },
+    {
+      "name": "UpdateACL",
+      "type": "control_plane",
+      "file": "pkg/resource/acl/sdk.go",
+      "line": 384
+    },
+    {
+      "name": "UpdateCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 170
+    },
+    {
+      "name": "UpdateParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/parameter_group/hooks.go",
+      "line": 200
+    },
+    {
+      "name": "UpdateSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/subnet_group/sdk.go",
+      "line": 339
+    },
+    {
+      "name": "UpdateUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/sdk.go",
+      "line": 358
+    },
+    {
+      "name": "BatchUpdateCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateMultiRegionCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteMultiRegionCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEngineVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeMultiRegionClusters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedNodes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedNodesOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeServiceUpdates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "FailoverShard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAllowedMultiRegionClusterUpdates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseReservedNodesOffering",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateMultiRegionCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

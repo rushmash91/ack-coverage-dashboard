@@ -1,0 +1,351 @@
+{
+  "service_name": "eventbridge",
+  "total_operations": 57,
+  "supported_operations": 20,
+  "control_plane_operations": 38,
+  "supported_control_plane_operations": 20,
+  "operations": [
+    {
+      "name": "CreateArchive",
+      "type": "control_plane",
+      "file": "pkg/resource/archive/sdk.go",
+      "line": 187
+    },
+    {
+      "name": "CreateEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint/sdk.go",
+      "line": 221
+    },
+    {
+      "name": "CreateEventBus",
+      "type": "control_plane",
+      "file": "pkg/resource/event_bus/sdk.go",
+      "line": 154
+    },
+    {
+      "name": "DeleteArchive",
+      "type": "control_plane",
+      "file": "pkg/resource/archive/sdk.go",
+      "line": 384
+    },
+    {
+      "name": "DeleteEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint/sdk.go",
+      "line": 568
+    },
+    {
+      "name": "DeleteEventBus",
+      "type": "control_plane",
+      "file": "pkg/resource/event_bus/sdk.go",
+      "line": 234
+    },
+    {
+      "name": "DeleteRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 411
+    },
+    {
+      "name": "DescribeArchive",
+      "type": "control_plane",
+      "file": "pkg/resource/archive/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeEventBus",
+      "type": "control_plane",
+      "file": "pkg/resource/event_bus/hooks.go",
+      "line": 29
+    },
+    {
+      "name": "DescribeRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/hooks.go",
+      "line": 94
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/event_bus/hooks.go",
+      "line": 58
+    },
+    {
+      "name": "ListTargetsByRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/hooks_targets.go",
+      "line": 59
+    },
+    {
+      "name": "PutRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/hooks.go",
+      "line": 198
+    },
+    {
+      "name": "PutTargets",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/hooks_targets.go",
+      "line": 126
+    },
+    {
+      "name": "RemoveTargets",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/hooks_targets.go",
+      "line": 99
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/event_bus/hooks.go",
+      "line": 128
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/event_bus/hooks.go",
+      "line": 114
+    },
+    {
+      "name": "UpdateArchive",
+      "type": "control_plane",
+      "file": "pkg/resource/archive/hooks.go",
+      "line": 92
+    },
+    {
+      "name": "UpdateEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint/hooks.go",
+      "line": 154
+    },
+    {
+      "name": "ActivateEventSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelReplay",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateApiDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePartnerEventSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeactivateEventSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeauthorizeConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteApiDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePartnerEventSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeApiDestination",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeConnection",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEventSource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePartnerEventSource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReplay",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListApiDestinations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListArchives",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListConnections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEventBuses",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEventSources",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPartnerEventSourceAccounts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPartnerEventSources",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListReplays",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRuleNamesByTarget",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutEvents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutPartnerEvents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutPermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemovePermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartReplay",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TestEventPattern",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateApiDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateEventBus",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

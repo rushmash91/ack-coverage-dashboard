@@ -1,0 +1,315 @@
+{
+  "service_name": "elbv2",
+  "total_operations": 51,
+  "supported_operations": 24,
+  "control_plane_operations": 39,
+  "supported_control_plane_operations": 24,
+  "operations": [
+    {
+      "name": "AddTags",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 40
+    },
+    {
+      "name": "CreateListener",
+      "type": "control_plane",
+      "file": "pkg/resource/listener/sdk.go",
+      "line": 368
+    },
+    {
+      "name": "CreateLoadBalancer",
+      "type": "control_plane",
+      "file": "pkg/resource/load_balancer/sdk.go",
+      "line": 269
+    },
+    {
+      "name": "CreateRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 390
+    },
+    {
+      "name": "CreateTargetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/target_group/sdk.go",
+      "line": 260
+    },
+    {
+      "name": "DeleteListener",
+      "type": "control_plane",
+      "file": "pkg/resource/listener/sdk.go",
+      "line": 1341
+    },
+    {
+      "name": "DeleteLoadBalancer",
+      "type": "control_plane",
+      "file": "pkg/resource/load_balancer/sdk.go",
+      "line": 498
+    },
+    {
+      "name": "DeleteRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 1471
+    },
+    {
+      "name": "DeleteTargetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/target_group/sdk.go",
+      "line": 743
+    },
+    {
+      "name": "DeregisterTargets",
+      "type": "control_plane",
+      "file": "pkg/resource/target_group/hooks.go",
+      "line": 152
+    },
+    {
+      "name": "DescribeListeners",
+      "type": "control_plane",
+      "file": "pkg/resource/listener/sdk.go",
+      "line": 83
+    },
+    {
+      "name": "DescribeLoadBalancerAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/load_balancer/hooks.go",
+      "line": 56
+    },
+    {
+      "name": "DescribeLoadBalancers",
+      "type": "control_plane",
+      "file": "pkg/resource/load_balancer/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeRules",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 83
+    },
+    {
+      "name": "DescribeTags",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 39
+    },
+    {
+      "name": "DescribeTargetGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/target_group/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeTargetHealth",
+      "type": "control_plane",
+      "file": "pkg/resource/target_group/hooks.go",
+      "line": 173
+    },
+    {
+      "name": "ModifyListener",
+      "type": "control_plane",
+      "file": "pkg/resource/listener/sdk.go",
+      "line": 863
+    },
+    {
+      "name": "ModifyLoadBalancerAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/load_balancer/hooks.go",
+      "line": 169
+    },
+    {
+      "name": "ModifyRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 947
+    },
+    {
+      "name": "ModifyTargetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/target_group/sdk.go",
+      "line": 536
+    },
+    {
+      "name": "RegisterTargets",
+      "type": "control_plane",
+      "file": "pkg/resource/target_group/hooks.go",
+      "line": 126
+    },
+    {
+      "name": "RemoveTags",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 41
+    },
+    {
+      "name": "SetRulePriorities",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/hooks.go",
+      "line": 41
+    },
+    {
+      "name": "AddListenerCertificates",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AddTrustStoreRevocations",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrustStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSharedTrustStoreAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrustStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAccountLimits",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityReservation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeListenerAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeListenerCertificates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSSLPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTargetGroupAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrustStoreAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrustStoreRevocations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrustStores",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResourcePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTrustStoreCaCertificatesBundle",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTrustStoreRevocationContent",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyCapacityReservation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIpPools",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyListenerAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyTargetGroupAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyTrustStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveListenerCertificates",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveTrustStoreRevocations",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetIpAddressType",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetSecurityGroups",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetSubnets",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

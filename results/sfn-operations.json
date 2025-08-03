@@ -1,0 +1,231 @@
+{
+  "service_name": "sfn",
+  "total_operations": 37,
+  "supported_operations": 10,
+  "control_plane_operations": 17,
+  "supported_control_plane_operations": 10,
+  "operations": [
+    {
+      "name": "CreateActivity",
+      "type": "control_plane",
+      "file": "pkg/resource/activity/sdk.go",
+      "line": 159
+    },
+    {
+      "name": "CreateStateMachine",
+      "type": "control_plane",
+      "file": "pkg/resource/state_machine/sdk.go",
+      "line": 206
+    },
+    {
+      "name": "DeleteActivity",
+      "type": "control_plane",
+      "file": "pkg/resource/activity/sdk.go",
+      "line": 241
+    },
+    {
+      "name": "DeleteStateMachine",
+      "type": "control_plane",
+      "file": "pkg/resource/state_machine/sdk.go",
+      "line": 329
+    },
+    {
+      "name": "DescribeActivity",
+      "type": "control_plane",
+      "file": "pkg/resource/activity/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeStateMachine",
+      "type": "control_plane",
+      "file": "pkg/resource/state_machine/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 37
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 36
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 38
+    },
+    {
+      "name": "UpdateStateMachine",
+      "type": "control_plane",
+      "file": "pkg/resource/state_machine/hooks.go",
+      "line": 51
+    },
+    {
+      "name": "CreateStateMachineAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteStateMachineAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteStateMachineVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeMapRun",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeStateMachineAlias",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeStateMachineForExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetActivityTask",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetExecutionHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListActivities",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListExecutions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMapRuns",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListStateMachineAliases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListStateMachines",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListStateMachineVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PublishStateMachineVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RedriveExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendTaskFailure",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendTaskHeartbeat",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendTaskSuccess",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartSyncExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TestState",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateMapRun",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateStateMachineAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ValidateStateMachineDefinition",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

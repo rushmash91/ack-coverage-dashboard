@@ -1,0 +1,321 @@
+{
+  "service_name": "kafka",
+  "total_operations": 52,
+  "supported_operations": 20,
+  "control_plane_operations": 34,
+  "supported_control_plane_operations": 20,
+  "operations": [
+    {
+      "name": "BatchAssociateScramSecret",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 346
+    },
+    {
+      "name": "BatchDisassociateScramSecret",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 497
+    },
+    {
+      "name": "CreateCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 399
+    },
+    {
+      "name": "CreateClusterV2",
+      "type": "control_plane",
+      "file": "pkg/resource/serverless_cluster/sdk.go",
+      "line": 415
+    },
+    {
+      "name": "CreateConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/configuration/sdk.go",
+      "line": 196
+    },
+    {
+      "name": "DeleteCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 708
+    },
+    {
+      "name": "DeleteConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/configuration/sdk.go",
+      "line": 365
+    },
+    {
+      "name": "DescribeCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeClusterV2",
+      "type": "control_plane",
+      "file": "pkg/resource/serverless_cluster/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/configuration/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeConfigurationRevision",
+      "type": "control_plane",
+      "file": "pkg/resource/configuration/sdk.go",
+      "line": 141
+    },
+    {
+      "name": "GetBootstrapBrokers",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 544
+    },
+    {
+      "name": "ListScramSecrets",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 346
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/sync/tags.go",
+      "line": 27
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/sync/tags.go",
+      "line": 27
+    },
+    {
+      "name": "UpdateBrokerCount",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 207
+    },
+    {
+      "name": "UpdateBrokerStorage",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 258
+    },
+    {
+      "name": "UpdateBrokerType",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 232
+    },
+    {
+      "name": "UpdateConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/configuration/sdk.go",
+      "line": 291
+    },
+    {
+      "name": "UpdateSecurity",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/hooks.go",
+      "line": 288
+    },
+    {
+      "name": "CreateReplicator",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpcConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteClusterPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteReplicator",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpcConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClusterOperation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClusterOperationV2",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReplicator",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcConnection",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetClusterPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCompatibleKafkaVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClientVpcConnections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClusterOperations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClusterOperationsV2",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClusters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClustersV2",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListConfigurationRevisions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListConfigurations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKafkaVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListNodes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListReplicators",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVpcConnections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutClusterPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebootBroker",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectClientVpcConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateClusterConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateClusterKafkaVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateConnectivity",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateMonitoring",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateReplicationInfo",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateStorage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "service_name": "athena",
+  "total_operations": 68,
+  "supported_operations": 11,
+  "control_plane_operations": 32,
+  "supported_control_plane_operations": 11,
+  "operations": [
+    {
+      "name": "CreatePreparedStatement",
+      "type": "control_plane",
+      "file": "pkg/resource/prepared_statement/sdk.go",
+      "line": 156
+    },
+    {
+      "name": "CreateWorkGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/work_group/sdk.go",
+      "line": 260
+    },
+    {
+      "name": "DeletePreparedStatement",
+      "type": "control_plane",
+      "file": "pkg/resource/prepared_statement/sdk.go",
+      "line": 267
+    },
+    {
+      "name": "DeleteWorkGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/work_group/sdk.go",
+      "line": 473
+    },
+    {
+      "name": "GetPreparedStatement",
+      "type": "control_plane",
+      "file": "pkg/resource/prepared_statement/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "GetWorkGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/work_group/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 43
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 64
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 64
+    },
+    {
+      "name": "UpdatePreparedStatement",
+      "type": "control_plane",
+      "file": "pkg/resource/prepared_statement/sdk.go",
+      "line": 213
+    },
+    {
+      "name": "UpdateWorkGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/work_group/sdk.go",
+      "line": 425
+    },
+    {
+      "name": "BatchGetNamedQuery",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchGetPreparedStatement",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchGetQueryExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelCapacityReservation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCapacityReservation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDataCatalog",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateNamedQuery",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateNotebook",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePresignedNotebookUrl",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCapacityReservation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDataCatalog",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNamedQuery",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNotebook",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportNotebook",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCalculationExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCalculationExecutionCode",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCalculationExecutionStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCapacityAssignmentConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCapacityReservation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDatabase",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDataCatalog",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetNamedQuery",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetNotebookMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetQueryExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetQueryResults",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetQueryRuntimeStatistics",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSession",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSessionStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTableMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportNotebook",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListApplicationDPUSizes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCalculationExecutions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCapacityReservations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDatabases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDataCatalogs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEngineVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListExecutors",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListNamedQueries",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListNotebookMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListNotebookSessions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPreparedStatements",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListQueryExecutions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSessions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTableMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListWorkGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutCapacityAssignmentConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartCalculationExecution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartQueryExecution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartSession",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopCalculationExecution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopQueryExecution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TerminateSession",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateCapacityReservation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDataCatalog",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateNamedQuery",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateNotebook",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateNotebookMetadata",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

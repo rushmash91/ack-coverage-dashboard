@@ -1,0 +1,459 @@
+{
+  "service_name": "elasticache",
+  "total_operations": 75,
+  "supported_operations": 42,
+  "control_plane_operations": 63,
+  "supported_control_plane_operations": 42,
+  "operations": [
+    {
+      "name": "AddTagsToResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 71
+    },
+    {
+      "name": "CopySnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/snapshot/hooks.go",
+      "line": 41
+    },
+    {
+      "name": "CreateCacheCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_cluster/hooks.go",
+      "line": 143
+    },
+    {
+      "name": "CreateCacheParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_parameter_group/hooks.go",
+      "line": 359
+    },
+    {
+      "name": "CreateCacheSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_subnet_group/sdk.go",
+      "line": 209
+    },
+    {
+      "name": "CreateReplicationGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/replication_group/hooks.go",
+      "line": 161
+    },
+    {
+      "name": "CreateServerlessCache",
+      "type": "control_plane",
+      "file": "pkg/resource/serverless_cache/sdk.go",
+      "line": 288
+    },
+    {
+      "name": "CreateSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/snapshot/hooks.go",
+      "line": 31
+    },
+    {
+      "name": "CreateUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 31
+    },
+    {
+      "name": "CreateUserGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/user_group/hooks.go",
+      "line": 196
+    },
+    {
+      "name": "DecreaseReplicaCount",
+      "type": "control_plane",
+      "file": "pkg/resource/replication_group/hooks.go",
+      "line": 757
+    },
+    {
+      "name": "DeleteCacheCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_cluster/sdk.go",
+      "line": 1412
+    },
+    {
+      "name": "DeleteCacheParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_parameter_group/sdk.go",
+      "line": 286
+    },
+    {
+      "name": "DeleteCacheSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_subnet_group/sdk.go",
+      "line": 428
+    },
+    {
+      "name": "DeleteReplicationGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/replication_group/sdk.go",
+      "line": 1687
+    },
+    {
+      "name": "DeleteServerlessCache",
+      "type": "control_plane",
+      "file": "pkg/resource/serverless_cache/sdk.go",
+      "line": 572
+    },
+    {
+      "name": "DeleteSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/snapshot/sdk.go",
+      "line": 629
+    },
+    {
+      "name": "DeleteUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/sdk.go",
+      "line": 470
+    },
+    {
+      "name": "DeleteUserGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/user_group/sdk.go",
+      "line": 330
+    },
+    {
+      "name": "DescribeCacheClusters",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_cluster/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeCacheParameterGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_parameter_group/hooks.go",
+      "line": 339
+    },
+    {
+      "name": "DescribeCacheParameters",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_parameter_group/hooks.go",
+      "line": 36
+    },
+    {
+      "name": "DescribeCacheSubnetGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_subnet_group/hooks.go",
+      "line": 32
+    },
+    {
+      "name": "DescribeEvents",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_parameter_group/hooks.go",
+      "line": 91
+    },
+    {
+      "name": "DescribeReplicationGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/replication_group/hooks.go",
+      "line": 143
+    },
+    {
+      "name": "DescribeServerlessCaches",
+      "type": "control_plane",
+      "file": "pkg/resource/serverless_cache/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeSnapshots",
+      "type": "control_plane",
+      "file": "pkg/resource/snapshot/hooks.go",
+      "line": 253
+    },
+    {
+      "name": "DescribeUserGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/user_group/hooks.go",
+      "line": 181
+    },
+    {
+      "name": "DescribeUsers",
+      "type": "control_plane",
+      "file": "pkg/resource/user/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "IncreaseReplicaCount",
+      "type": "control_plane",
+      "file": "pkg/resource/replication_group/hooks.go",
+      "line": 739
+    },
+    {
+      "name": "ListAllowedNodeTypeModifications",
+      "type": "control_plane",
+      "file": "pkg/resource/replication_group/hooks.go",
+      "line": 259
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 44
+    },
+    {
+      "name": "ModifyCacheCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_cluster/hooks.go",
+      "line": 99
+    },
+    {
+      "name": "ModifyCacheParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_parameter_group/hooks.go",
+      "line": 298
+    },
+    {
+      "name": "ModifyCacheSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_subnet_group/sdk.go",
+      "line": 327
+    },
+    {
+      "name": "ModifyReplicationGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/replication_group/hooks.go",
+      "line": 174
+    },
+    {
+      "name": "ModifyReplicationGroupShardConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/replication_group/hooks.go",
+      "line": 779
+    },
+    {
+      "name": "ModifyServerlessCache",
+      "type": "control_plane",
+      "file": "pkg/resource/serverless_cache/hooks.go",
+      "line": 74
+    },
+    {
+      "name": "ModifyUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 40
+    },
+    {
+      "name": "ModifyUserGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/user_group/hooks.go",
+      "line": 88
+    },
+    {
+      "name": "RemoveTagsFromResource",
+      "type": "control_plane",
+      "file": "pkg/util/tags.go",
+      "line": 72
+    },
+    {
+      "name": "ResetCacheParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_parameter_group/hooks.go",
+      "line": 198
+    },
+    {
+      "name": "AuthorizeCacheSecurityGroupIngress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchApplyUpdateAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchStopUpdateAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CompleteMigration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyServerlessCacheSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCacheSecurityGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateGlobalReplicationGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateServerlessCacheSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DecreaseNodeGroupsInGlobalReplicationGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCacheSecurityGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteGlobalReplicationGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteServerlessCacheSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCacheEngineVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCacheSecurityGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEngineDefaultParameters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeGlobalReplicationGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedCacheNodes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedCacheNodesOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeServerlessCacheSnapshots",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeServiceUpdates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeUpdateActions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateGlobalReplicationGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportServerlessCacheSnapshot",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "FailoverGlobalReplicationGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "IncreaseNodeGroupsInGlobalReplicationGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyGlobalReplicationGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseReservedCacheNodesOffering",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebalanceSlotsInGlobalReplicationGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebootCacheCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RevokeCacheSecurityGroupIngress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartMigration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TestFailover",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TestMigration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "service_name": "organizations",
+  "total_operations": 55,
+  "supported_operations": 13,
+  "control_plane_operations": 35,
+  "supported_control_plane_operations": 13,
+  "operations": [
+    {
+      "name": "CloseAccount",
+      "type": "control_plane",
+      "file": "pkg/resource/account/sdk.go",
+      "line": 295
+    },
+    {
+      "name": "CreateAccount",
+      "type": "control_plane",
+      "file": "pkg/resource/account/resource.go",
+      "line": 98
+    },
+    {
+      "name": "CreateOrganization",
+      "type": "control_plane",
+      "file": "pkg/resource/organizational_unit/sdk.go",
+      "line": 156
+    },
+    {
+      "name": "CreateOrganizationalUnit",
+      "type": "control_plane",
+      "file": "pkg/resource/organizational_unit/sdk.go",
+      "line": 156
+    },
+    {
+      "name": "DeleteOrganization",
+      "type": "control_plane",
+      "file": "pkg/resource/organizational_unit/sdk.go",
+      "line": 302
+    },
+    {
+      "name": "DeleteOrganizationalUnit",
+      "type": "control_plane",
+      "file": "pkg/resource/organizational_unit/sdk.go",
+      "line": 302
+    },
+    {
+      "name": "DescribeCreateAccountStatus",
+      "type": "control_plane",
+      "file": "pkg/resource/account/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeOrganization",
+      "type": "control_plane",
+      "file": "pkg/resource/organizational_unit/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeOrganizationalUnit",
+      "type": "control_plane",
+      "file": "pkg/resource/organizational_unit/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 39
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 39
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 39
+    },
+    {
+      "name": "UpdateOrganizationalUnit",
+      "type": "control_plane",
+      "file": "pkg/resource/organizational_unit/sdk.go",
+      "line": 239
+    },
+    {
+      "name": "AcceptHandshake",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AttachPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelHandshake",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateGovCloudAccount",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeclineHandshake",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterDelegatedAdministrator",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAccount",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEffectivePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeHandshake",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeResourcePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DetachPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableAWSServiceAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisablePolicyType",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableAllFeatures",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableAWSServiceAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnablePolicyType",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "InviteAccountToOrganization",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "LeaveOrganization",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAccounts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAccountsForParent",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAWSServiceAccessForOrganization",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListChildren",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCreateAccountStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDelegatedAdministrators",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDelegatedServicesForAccount",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHandshakesForAccount",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHandshakesForOrganization",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListOrganizationalUnitsForParent",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListParents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPoliciesForTarget",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRoots",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTargetsForPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "MoveAccount",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterDelegatedAdministrator",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveAccountFromOrganization",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

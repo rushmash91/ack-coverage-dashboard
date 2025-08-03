@@ -1,0 +1,207 @@
+{
+  "service_name": "prometheusservice",
+  "total_operations": 33,
+  "supported_operations": 18,
+  "control_plane_operations": 25,
+  "supported_control_plane_operations": 18,
+  "operations": [
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_groups_namespace/hooks.go",
+      "line": 166
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_groups_namespace/hooks.go",
+      "line": 166
+    },
+    {
+      "name": "DescribeWorkspace",
+      "type": "control_plane",
+      "file": "pkg/resource/workspace/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "UpdateWorkspaceAlias",
+      "type": "control_plane",
+      "file": "pkg/resource/workspace/hooks.go",
+      "line": 156
+    },
+    {
+      "name": "DescribeRuleGroupsNamespace",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_groups_namespace/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeLoggingConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/logging_configuration/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "PutAlertManagerDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/alert_manager_definition/hooks.go",
+      "line": 182
+    },
+    {
+      "name": "CreateLoggingConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/logging_configuration/sdk.go",
+      "line": 146
+    },
+    {
+      "name": "PutRuleGroupsNamespace",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_groups_namespace/hooks.go",
+      "line": 233
+    },
+    {
+      "name": "DeleteRuleGroupsNamespace",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_groups_namespace/sdk.go",
+      "line": 293
+    },
+    {
+      "name": "CreateRuleGroupsNamespace",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_groups_namespace/sdk.go",
+      "line": 191
+    },
+    {
+      "name": "DeleteLoggingConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/logging_configuration/sdk.go",
+      "line": 277
+    },
+    {
+      "name": "CreateAlertManagerDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/alert_manager_definition/sdk.go",
+      "line": 237
+    },
+    {
+      "name": "UpdateLoggingConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/logging_configuration/sdk.go",
+      "line": 218
+    },
+    {
+      "name": "DescribeAlertManagerDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/alert_manager_definition/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DeleteAlertManagerDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/alert_manager_definition/sdk.go",
+      "line": 324
+    },
+    {
+      "name": "DeleteWorkspace",
+      "type": "control_plane",
+      "file": "pkg/resource/workspace/sdk.go",
+      "line": 264
+    },
+    {
+      "name": "CreateWorkspace",
+      "type": "control_plane",
+      "file": "pkg/resource/workspace/sdk.go",
+      "line": 169
+    },
+    {
+      "name": "GetDefaultScraperConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateScraper",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRuleGroupsNamespaces",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteScraper",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeScraper",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListWorkspaces",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateWorkspaceConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateQueryLoggingConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateQueryLoggingConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeQueryLoggingConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteQueryLoggingConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateScraper",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListScrapers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeWorkspaceConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

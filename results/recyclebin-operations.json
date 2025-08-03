@@ -1,0 +1,69 @@
+{
+  "service_name": "recyclebin",
+  "total_operations": 10,
+  "supported_operations": 7,
+  "control_plane_operations": 9,
+  "supported_control_plane_operations": 7,
+  "operations": [
+    {
+      "name": "CreateRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 221
+    },
+    {
+      "name": "DeleteRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 586
+    },
+    {
+      "name": "GetRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 37
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 36
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 38
+    },
+    {
+      "name": "UpdateRule",
+      "type": "control_plane",
+      "file": "pkg/resource/rule/sdk.go",
+      "line": 444
+    },
+    {
+      "name": "ListRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "LockRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UnlockRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

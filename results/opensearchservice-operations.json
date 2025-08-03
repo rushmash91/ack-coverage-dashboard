@@ -1,0 +1,465 @@
+{
+  "service_name": "opensearchservice",
+  "total_operations": 76,
+  "supported_operations": 5,
+  "control_plane_operations": 40,
+  "supported_control_plane_operations": 5,
+  "operations": [
+    {
+      "name": "CreateDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/sdk.go",
+      "line": 584
+    },
+    {
+      "name": "DeleteDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/sdk.go",
+      "line": 1455
+    },
+    {
+      "name": "DescribeDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/hooks.go",
+      "line": 42
+    },
+    {
+      "name": "UpdateDomainConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/hooks.go",
+      "line": 155
+    },
+    {
+      "name": "UpgradeDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/hooks.go",
+      "line": 113
+    },
+    {
+      "name": "AcceptInboundConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AddDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AddDirectQueryDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AddTags",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociatePackage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociatePackages",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AuthorizeVpcEndpointAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelDomainConfigChange",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelServiceSoftwareUpdate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateApplication",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateOutboundConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePackage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpcEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteApplication",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDirectQueryDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteInboundConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteOutboundConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePackage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpcEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDomainAutoTunes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDomainChangeProgress",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDomainConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDomainHealth",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDomainNodes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDomains",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDryRunProgress",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInboundConnections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceTypeLimits",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeOutboundConnections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePackages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedInstanceOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DissociatePackage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DissociatePackages",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetApplication",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCompatibleVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDataSource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDirectQueryDataSource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDomainMaintenanceStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPackageVersionHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetUpgradeHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetUpgradeStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListApplications",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDataSources",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDirectQueryDataSources",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDomainMaintenances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDomainNames",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDomainsForPackage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInstanceTypeDetails",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPackagesForDomain",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListScheduledActions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVpcEndpointAccess",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVpcEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVpcEndpointsForDomain",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseReservedInstanceOffering",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectInboundConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveTags",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RevokeVpcEndpointAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartDomainMaintenance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartServiceSoftwareUpdate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateApplication",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDirectQueryDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePackage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePackageScope",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateScheduledAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateVpcEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

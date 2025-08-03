@@ -1,0 +1,147 @@
+{
+  "service_name": "sqs",
+  "total_operations": 23,
+  "supported_operations": 9,
+  "control_plane_operations": 14,
+  "supported_control_plane_operations": 9,
+  "operations": [
+    {
+      "name": "CreateQueue",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/sdk.go",
+      "line": 178
+    },
+    {
+      "name": "DeleteQueue",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/sdk.go",
+      "line": 466
+    },
+    {
+      "name": "GetQueueAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "ListQueueTags",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/hooks.go",
+      "line": 32
+    },
+    {
+      "name": "ReceiveMessage",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/delta.go",
+      "line": 109
+    },
+    {
+      "name": "SendMessage",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/hooks_test.go",
+      "line": 29
+    },
+    {
+      "name": "SetQueueAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/sdk.go",
+      "line": 366
+    },
+    {
+      "name": "TagQueue",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/hooks.go",
+      "line": 32
+    },
+    {
+      "name": "UntagQueue",
+      "type": "control_plane",
+      "file": "pkg/resource/queue/hooks.go",
+      "line": 32
+    },
+    {
+      "name": "AddPermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelMessageMoveTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ChangeMessageVisibility",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ChangeMessageVisibilityBatch",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteMessage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteMessageBatch",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetQueueUrl",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDeadLetterSourceQueues",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMessageMoveTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListQueues",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurgeQueue",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemovePermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendMessageBatch",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartMessageMoveTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

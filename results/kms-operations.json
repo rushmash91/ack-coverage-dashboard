@@ -1,0 +1,327 @@
+{
+  "service_name": "kms",
+  "total_operations": 53,
+  "supported_operations": 22,
+  "control_plane_operations": 35,
+  "supported_control_plane_operations": 22,
+  "operations": [
+    {
+      "name": "CreateAlias",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/sdk.go",
+      "line": 183
+    },
+    {
+      "name": "CreateGrant",
+      "type": "control_plane",
+      "file": "pkg/resource/grant/sdk.go",
+      "line": 200
+    },
+    {
+      "name": "CreateKey",
+      "type": "control_plane",
+      "file": "pkg/resource/key/sdk.go",
+      "line": 310
+    },
+    {
+      "name": "DeleteAlias",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/sdk.go",
+      "line": 285
+    },
+    {
+      "name": "DescribeKey",
+      "type": "control_plane",
+      "file": "pkg/resource/key/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DisableKey",
+      "type": "control_plane",
+      "file": "pkg/resource/key/hooks.go",
+      "line": 160
+    },
+    {
+      "name": "DisableKeyRotation",
+      "type": "control_plane",
+      "file": "pkg/resource/key/hooks.go",
+      "line": 160
+    },
+    {
+      "name": "EnableKey",
+      "type": "control_plane",
+      "file": "pkg/resource/key/delta.go",
+      "line": 67
+    },
+    {
+      "name": "EnableKeyRotation",
+      "type": "control_plane",
+      "file": "pkg/resource/key/delta.go",
+      "line": 67
+    },
+    {
+      "name": "Encrypt",
+      "type": "control_plane",
+      "file": "pkg/resource/grant/delta.go",
+      "line": 49
+    },
+    {
+      "name": "GetKeyPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/key/policy_hooks.go",
+      "line": 50
+    },
+    {
+      "name": "GetKeyRotationStatus",
+      "type": "control_plane",
+      "file": "pkg/resource/key/hooks.go",
+      "line": 132
+    },
+    {
+      "name": "ListAliases",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "ListGrants",
+      "type": "control_plane",
+      "file": "pkg/resource/grant/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "ListResourceTags",
+      "type": "control_plane",
+      "file": "pkg/resource/key/tag_hooks.go",
+      "line": 74
+    },
+    {
+      "name": "PutKeyPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/key/policy_hooks.go",
+      "line": 29
+    },
+    {
+      "name": "RevokeGrant",
+      "type": "control_plane",
+      "file": "pkg/resource/grant/sdk.go",
+      "line": 297
+    },
+    {
+      "name": "ScheduleKeyDeletion",
+      "type": "control_plane",
+      "file": "pkg/resource/key/sdk.go",
+      "line": 566
+    },
+    {
+      "name": "Sign",
+      "type": "control_plane",
+      "file": "pkg/resource/key/sdk.go",
+      "line": 232
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/key/tag_hooks.go",
+      "line": 25
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/key/tag_hooks.go",
+      "line": 41
+    },
+    {
+      "name": "UpdateAlias",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/sdk.go",
+      "line": 235
+    },
+    {
+      "name": "CancelKeyDeletion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ConnectCustomKeyStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCustomKeyStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "Decrypt",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCustomKeyStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteImportedKeyMaterial",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeriveSharedSecret",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCustomKeyStores",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisconnectCustomKeyStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateDataKey",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateDataKeyPair",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateDataKeyPairWithoutPlaintext",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateDataKeyWithoutPlaintext",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateMac",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateRandom",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetParametersForImport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPublicKey",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportKeyMaterial",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKeyPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKeyRotations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKeys",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRetirableGrants",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReEncrypt",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReplicateKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RetireGrant",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RotateKeyOnDemand",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateCustomKeyStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateKeyDescription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePrimaryRegion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "Verify",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifyMac",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

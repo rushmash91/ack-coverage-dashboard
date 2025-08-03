@@ -1,0 +1,441 @@
+{
+  "service_name": "bedrockagent",
+  "total_operations": 72,
+  "supported_operations": 8,
+  "control_plane_operations": 41,
+  "supported_control_plane_operations": 8,
+  "operations": [
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 28
+    },
+    {
+      "name": "UpdateAgent",
+      "type": "control_plane",
+      "file": "pkg/resource/agent/hooks.go",
+      "line": 59
+    },
+    {
+      "name": "CreateAgent",
+      "type": "control_plane",
+      "file": "pkg/resource/agent/sdk.go",
+      "line": 356
+    },
+    {
+      "name": "DeleteAgent",
+      "type": "control_plane",
+      "file": "pkg/resource/agent/sdk.go",
+      "line": 1225
+    },
+    {
+      "name": "PrepareAgent",
+      "type": "control_plane",
+      "file": "pkg/resource/agent/delta.go",
+      "line": 45
+    },
+    {
+      "name": "GetAgent",
+      "type": "control_plane",
+      "file": "pkg/resource/agent/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 30
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 29
+    },
+    {
+      "name": "ValidateFlowDefinition",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAgentAlias",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAgentVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartIngestionJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetKnowledgeBaseDocuments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAgentKnowledgeBase",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePrompt",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFlow",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListIngestionJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFlow",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFlowVersion",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePrompt",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIngestionJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFlows",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAgentKnowledgeBase",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAgentCollaborator",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDataSource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFlowAlias",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFlowAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPrompts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFlowAliases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopIngestionJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFlowAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAgentCollaborators",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFlowVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPrompt",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateKnowledgeBase",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteKnowledgeBaseDocuments",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFlowAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAgentAliases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateAgentCollaborator",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAgentAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFlow",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetKnowledgeBase",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAgentActionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAgentActionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateAgentKnowledgeBase",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDataSources",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteKnowledgeBase",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAgentAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAgentActionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateAgentCollaborator",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAgentKnowledgeBases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAgents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKnowledgeBaseDocuments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAgentAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAgentVersion",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "IngestKnowledgeBaseDocuments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKnowledgeBases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAgentActionGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateKnowledgeBase",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDataSource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAgentVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PrepareFlow",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePrompt",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePromptVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFlow",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAgentActionGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAgentCollaborator",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFlowVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFlowVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateAgentKnowledgeBase",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

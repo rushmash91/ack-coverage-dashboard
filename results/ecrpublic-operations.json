@@ -1,0 +1,147 @@
+{
+  "service_name": "ecrpublic",
+  "total_operations": 23,
+  "supported_operations": 6,
+  "control_plane_operations": 10,
+  "supported_control_plane_operations": 6,
+  "operations": [
+    {
+      "name": "CreateRepository",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/sdk.go",
+      "line": 176
+    },
+    {
+      "name": "DeleteRepository",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/sdk.go",
+      "line": 277
+    },
+    {
+      "name": "DescribeRepositories",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/hooks.go",
+      "line": 173
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/hooks.go",
+      "line": 77
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/hooks.go",
+      "line": 65
+    },
+    {
+      "name": "BatchCheckLayerAvailability",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchDeleteImage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CompleteLayerUpload",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRepositoryPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImageTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRegistries",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAuthorizationToken",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRegistryCatalogData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRepositoryCatalogData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRepositoryPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "InitiateLayerUpload",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutImage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRegistryCatalogData",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRepositoryCatalogData",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetRepositoryPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UploadLayerPart",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

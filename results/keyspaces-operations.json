@@ -1,0 +1,123 @@
+{
+  "service_name": "keyspaces",
+  "total_operations": 19,
+  "supported_operations": 8,
+  "control_plane_operations": 13,
+  "supported_control_plane_operations": 8,
+  "operations": [
+    {
+      "name": "CreateKeyspace",
+      "type": "control_plane",
+      "file": "pkg/resource/keyspace/sdk.go",
+      "line": 149
+    },
+    {
+      "name": "CreateTable",
+      "type": "control_plane",
+      "file": "pkg/resource/table/sdk.go",
+      "line": 290
+    },
+    {
+      "name": "DeleteKeyspace",
+      "type": "control_plane",
+      "file": "pkg/resource/keyspace/sdk.go",
+      "line": 288
+    },
+    {
+      "name": "DeleteTable",
+      "type": "control_plane",
+      "file": "pkg/resource/table/sdk.go",
+      "line": 584
+    },
+    {
+      "name": "GetKeyspace",
+      "type": "control_plane",
+      "file": "pkg/resource/keyspace/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetTable",
+      "type": "control_plane",
+      "file": "pkg/resource/table/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "UpdateKeyspace",
+      "type": "control_plane",
+      "file": "pkg/resource/keyspace/sdk.go",
+      "line": 227
+    },
+    {
+      "name": "UpdateTable",
+      "type": "control_plane",
+      "file": "pkg/resource/table/sdk.go",
+      "line": 476
+    },
+    {
+      "name": "CreateType",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteType",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTableAutoScalingSettings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetType",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKeyspaces",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTables",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTypes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

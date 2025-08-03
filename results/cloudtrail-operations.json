@@ -1,0 +1,363 @@
+{
+  "service_name": "cloudtrail",
+  "total_operations": 59,
+  "supported_operations": 11,
+  "control_plane_operations": 34,
+  "supported_control_plane_operations": 11,
+  "operations": [
+    {
+      "name": "AddTags",
+      "type": "control_plane",
+      "file": "pkg/resource/event_data_store/hooks.go",
+      "line": 80
+    },
+    {
+      "name": "CreateEventDataStore",
+      "type": "control_plane",
+      "file": "pkg/resource/event_data_store/sdk.go",
+      "line": 249
+    },
+    {
+      "name": "CreateTrail",
+      "type": "control_plane",
+      "file": "pkg/resource/trail/sdk.go",
+      "line": 209
+    },
+    {
+      "name": "DeleteEventDataStore",
+      "type": "control_plane",
+      "file": "pkg/resource/event_data_store/sdk.go",
+      "line": 683
+    },
+    {
+      "name": "DeleteTrail",
+      "type": "control_plane",
+      "file": "pkg/resource/trail/sdk.go",
+      "line": 376
+    },
+    {
+      "name": "GetEventDataStore",
+      "type": "control_plane",
+      "file": "pkg/resource/event_data_store/hooks.go",
+      "line": 30
+    },
+    {
+      "name": "GetTrail",
+      "type": "control_plane",
+      "file": "pkg/resource/trail/hooks.go",
+      "line": 30
+    },
+    {
+      "name": "ListTags",
+      "type": "control_plane",
+      "file": "pkg/resource/event_data_store/hooks.go",
+      "line": 102
+    },
+    {
+      "name": "RemoveTags",
+      "type": "control_plane",
+      "file": "pkg/resource/event_data_store/hooks.go",
+      "line": 66
+    },
+    {
+      "name": "UpdateEventDataStore",
+      "type": "control_plane",
+      "file": "pkg/resource/event_data_store/sdk.go",
+      "line": 486
+    },
+    {
+      "name": "UpdateTrail",
+      "type": "control_plane",
+      "file": "pkg/resource/trail/custom_update_api.go",
+      "line": 11
+    },
+    {
+      "name": "CancelQuery",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateChannel",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDashboard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteChannel",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDashboard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterOrganizationDelegatedAdmin",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeQuery",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrails",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableFederation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableFederation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateQuery",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetChannel",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDashboard",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetEventConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetEventSelectors",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetImport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetInsightSelectors",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetQueryResults",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResourcePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTrailStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListChannels",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDashboards",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEventDataStores",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListImportFailures",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListImports",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInsightsMetricData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPublicKeys",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListQueries",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrails",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "LookupEvents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutEventConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutEventSelectors",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutInsightSelectors",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterOrganizationDelegatedAdmin",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreEventDataStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SearchSampleQueries",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartDashboardRefresh",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartEventDataStoreIngestion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartImport",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartLogging",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartQuery",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopEventDataStoreIngestion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopImport",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopLogging",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateChannel",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDashboard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

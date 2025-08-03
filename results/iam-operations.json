@@ -1,0 +1,993 @@
+{
+  "service_name": "iam",
+  "total_operations": 164,
+  "supported_operations": 72,
+  "control_plane_operations": 119,
+  "supported_control_plane_operations": 72,
+  "operations": [
+    {
+      "name": "AddClientIDToOpenIDConnectProvider",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/hooks.go",
+      "line": 60
+    },
+    {
+      "name": "AddRoleToInstanceProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/instance_profile/hooks.go",
+      "line": 91
+    },
+    {
+      "name": "AttachGroupPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 29
+    },
+    {
+      "name": "AttachRolePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 84
+    },
+    {
+      "name": "AttachUserPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 81
+    },
+    {
+      "name": "CreateGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/group/sdk.go",
+      "line": 174
+    },
+    {
+      "name": "CreateInstanceProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/instance_profile/sdk.go",
+      "line": 192
+    },
+    {
+      "name": "CreateOpenIDConnectProvider",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/hooks.go",
+      "line": 144
+    },
+    {
+      "name": "CreatePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 37
+    },
+    {
+      "name": "CreatePolicyVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 37
+    },
+    {
+      "name": "CreateRole",
+      "type": "control_plane",
+      "file": "pkg/resource/role/sdk.go",
+      "line": 236
+    },
+    {
+      "name": "CreateServiceLinkedRole",
+      "type": "control_plane",
+      "file": "pkg/resource/service_linked_role/sdk.go",
+      "line": 80
+    },
+    {
+      "name": "CreateUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/sdk.go",
+      "line": 206
+    },
+    {
+      "name": "DeleteGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 142
+    },
+    {
+      "name": "DeleteGroupPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 142
+    },
+    {
+      "name": "DeleteInstanceProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/instance_profile/sdk.go",
+      "line": 319
+    },
+    {
+      "name": "DeleteOpenIDConnectProvider",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/sdk.go",
+      "line": 274
+    },
+    {
+      "name": "DeletePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 275
+    },
+    {
+      "name": "DeletePolicyVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 275
+    },
+    {
+      "name": "DeleteRole",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 63
+    },
+    {
+      "name": "DeleteRolePermissionsBoundary",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 63
+    },
+    {
+      "name": "DeleteRolePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 196
+    },
+    {
+      "name": "DeleteServiceLinkedRole",
+      "type": "control_plane",
+      "file": "pkg/resource/service_linked_role/sdk.go",
+      "line": 225
+    },
+    {
+      "name": "DeleteUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 60
+    },
+    {
+      "name": "DeleteUserPermissionsBoundary",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 60
+    },
+    {
+      "name": "DeleteUserPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 200
+    },
+    {
+      "name": "DetachGroupPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 30
+    },
+    {
+      "name": "DetachRolePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 84
+    },
+    {
+      "name": "DetachUserPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 81
+    },
+    {
+      "name": "GetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 204
+    },
+    {
+      "name": "GetGroupPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 204
+    },
+    {
+      "name": "GetInstanceProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/instance_profile/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetOpenIDConnectProvider",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 330
+    },
+    {
+      "name": "GetPolicyVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 330
+    },
+    {
+      "name": "GetRole",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 258
+    },
+    {
+      "name": "GetRolePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 258
+    },
+    {
+      "name": "GetUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 262
+    },
+    {
+      "name": "GetUserPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 262
+    },
+    {
+      "name": "ListAttachedGroupPolicies",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 29
+    },
+    {
+      "name": "ListAttachedRolePolicies",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 84
+    },
+    {
+      "name": "ListAttachedUserPolicies",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 140
+    },
+    {
+      "name": "ListGroupPolicies",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 142
+    },
+    {
+      "name": "ListOpenIDConnectProviderTags",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/hooks.go",
+      "line": 157
+    },
+    {
+      "name": "ListPolicyTags",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 74
+    },
+    {
+      "name": "ListPolicyVersions",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 372
+    },
+    {
+      "name": "ListRolePolicies",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 196
+    },
+    {
+      "name": "ListRoleTags",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 434
+    },
+    {
+      "name": "ListUserPolicies",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 81
+    },
+    {
+      "name": "ListUserTags",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 372
+    },
+    {
+      "name": "PutGroupPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/group/hooks.go",
+      "line": 142
+    },
+    {
+      "name": "PutRolePermissionsBoundary",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 44
+    },
+    {
+      "name": "PutRolePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 196
+    },
+    {
+      "name": "PutUserPermissionsBoundary",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 41
+    },
+    {
+      "name": "PutUserPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 200
+    },
+    {
+      "name": "RemoveClientIDFromOpenIDConnectProvider",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/hooks.go",
+      "line": 61
+    },
+    {
+      "name": "RemoveRoleFromInstanceProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/instance_profile/hooks.go",
+      "line": 108
+    },
+    {
+      "name": "TagInstanceProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/instance_profile/hooks.go",
+      "line": 116
+    },
+    {
+      "name": "TagOpenIDConnectProvider",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/hooks.go",
+      "line": 158
+    },
+    {
+      "name": "TagPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 74
+    },
+    {
+      "name": "TagRole",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 435
+    },
+    {
+      "name": "TagUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 373
+    },
+    {
+      "name": "UntagInstanceProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/instance_profile/hooks.go",
+      "line": 117
+    },
+    {
+      "name": "UntagOpenIDConnectProvider",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/hooks.go",
+      "line": 158
+    },
+    {
+      "name": "UntagPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/policy/hooks.go",
+      "line": 74
+    },
+    {
+      "name": "UntagRole",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 435
+    },
+    {
+      "name": "UntagUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/hooks.go",
+      "line": 373
+    },
+    {
+      "name": "UpdateAssumeRolePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/role/hooks.go",
+      "line": 362
+    },
+    {
+      "name": "UpdateGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/group/sdk.go",
+      "line": 284
+    },
+    {
+      "name": "UpdateOpenIDConnectProviderThumbprint",
+      "type": "control_plane",
+      "file": "pkg/resource/open_id_connect_provider/hooks.go",
+      "line": 48
+    },
+    {
+      "name": "UpdateRole",
+      "type": "control_plane",
+      "file": "pkg/resource/role/sdk.go",
+      "line": 433
+    },
+    {
+      "name": "UpdateUser",
+      "type": "control_plane",
+      "file": "pkg/resource/user/sdk.go",
+      "line": 371
+    },
+    {
+      "name": "AddUserToGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ChangePassword",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAccessKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAccountAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateLoginProfile",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSAMLProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateServiceSpecificCredential",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVirtualMFADevice",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeactivateMFADevice",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAccessKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAccountAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAccountPasswordPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLoginProfile",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSAMLProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteServerCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteServiceSpecificCredential",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSigningCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSSHPublicKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVirtualMFADevice",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableOrganizationsRootCredentialsManagement",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableOrganizationsRootSessions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableMFADevice",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableOrganizationsRootCredentialsManagement",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableOrganizationsRootSessions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateCredentialReport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateOrganizationsAccessReport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateServiceLastAccessedDetails",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccessKeyLastUsed",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccountAuthorizationDetails",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccountPasswordPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccountSummary",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetContextKeysForCustomPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetContextKeysForPrincipalPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCredentialReport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetLoginProfile",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetMFADevice",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetOrganizationsAccessReport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSAMLProvider",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetServerCertificate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetServiceLastAccessedDetails",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetServiceLastAccessedDetailsWithEntities",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetServiceLinkedRoleDeletionStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSSHPublicKey",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAccessKeys",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAccountAliases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEntitiesForPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListGroupsForUser",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInstanceProfiles",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInstanceProfilesForRole",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInstanceProfileTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMFADevices",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMFADeviceTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListOpenIDConnectProviders",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListOrganizationsFeatures",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPoliciesGrantingServiceAccess",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRoles",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSAMLProviders",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSAMLProviderTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListServerCertificates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListServerCertificateTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListServiceSpecificCredentials",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSigningCertificates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSSHPublicKeys",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUsers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVirtualMFADevices",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveUserFromGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetServiceSpecificCredential",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResyncMFADevice",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetDefaultPolicyVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetSecurityTokenServicePreferences",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SimulateCustomPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SimulatePrincipalPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagMFADevice",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagSAMLProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagServerCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagMFADevice",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagSAMLProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagServerCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAccessKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAccountPasswordPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateLoginProfile",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateRoleDescription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateSAMLProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateServerCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateServiceSpecificCredential",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateSigningCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateSSHPublicKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UploadServerCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UploadSigningCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UploadSSHPublicKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

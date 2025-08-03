@@ -1,0 +1,333 @@
+{
+  "service_name": "wafv2",
+  "total_operations": 54,
+  "supported_operations": 14,
+  "control_plane_operations": 29,
+  "supported_control_plane_operations": 14,
+  "operations": [
+    {
+      "name": "CreateIPSet",
+      "type": "control_plane",
+      "file": "pkg/resource/ip_set/sdk.go",
+      "line": 180
+    },
+    {
+      "name": "CreateRuleGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_group/sdk.go",
+      "line": 2069
+    },
+    {
+      "name": "CreateWebACL",
+      "type": "control_plane",
+      "file": "pkg/resource/web_acl/sdk.go",
+      "line": 2166
+    },
+    {
+      "name": "DeleteIPSet",
+      "type": "control_plane",
+      "file": "pkg/resource/ip_set/sdk.go",
+      "line": 342
+    },
+    {
+      "name": "DeleteRuleGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_group/sdk.go",
+      "line": 6206
+    },
+    {
+      "name": "DeleteWebACL",
+      "type": "control_plane",
+      "file": "pkg/resource/web_acl/sdk.go",
+      "line": 6515
+    },
+    {
+      "name": "GetIPSet",
+      "type": "control_plane",
+      "file": "pkg/resource/ip_set/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetLoggingConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/web_acl/hooks.go",
+      "line": 355
+    },
+    {
+      "name": "GetRuleGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_group/sdk.go",
+      "line": 85
+    },
+    {
+      "name": "GetWebACL",
+      "type": "control_plane",
+      "file": "pkg/resource/web_acl/hooks.go",
+      "line": 339
+    },
+    {
+      "name": "PutLoggingConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/web_acl/hooks.go",
+      "line": 176
+    },
+    {
+      "name": "UpdateIPSet",
+      "type": "control_plane",
+      "file": "pkg/resource/ip_set/sdk.go",
+      "line": 282
+    },
+    {
+      "name": "UpdateRuleGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_group/sdk.go",
+      "line": 4160
+    },
+    {
+      "name": "UpdateWebACL",
+      "type": "control_plane",
+      "file": "pkg/resource/web_acl/sdk.go",
+      "line": 4370
+    },
+    {
+      "name": "AssociateWebACL",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CheckCapacity",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAPIKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRegexPatternSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAPIKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFirewallManagerRuleGroups",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLoggingConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePermissionPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRegexPatternSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAllManagedProducts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeManagedProductsByVendor",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeManagedRuleGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateWebACL",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GenerateMobileSdkReleaseUrl",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDecryptedAPIKey",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetManagedRuleSet",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetMobileSdkRelease",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPermissionPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRateBasedStatementManagedKeys",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRegexPatternSet",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSampledRequests",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetWebACLForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAPIKeys",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAvailableManagedRuleGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAvailableManagedRuleGroupVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListIPSets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListLoggingConfigurations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListManagedRuleSets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMobileSdkReleases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRegexPatternSets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResourcesForWebACL",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRuleGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListWebACLs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutManagedRuleSetVersions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutPermissionPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateManagedRuleSetVersionExpiryDate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateRegexPatternSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

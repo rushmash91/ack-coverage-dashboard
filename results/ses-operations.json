@@ -1,0 +1,435 @@
+{
+  "service_name": "ses",
+  "total_operations": 71,
+  "supported_operations": 3,
+  "control_plane_operations": 43,
+  "supported_control_plane_operations": 3,
+  "operations": [
+    {
+      "name": "CreateConfigurationSet",
+      "type": "control_plane",
+      "file": "pkg/resource/configuration_set/sdk.go",
+      "line": 143
+    },
+    {
+      "name": "DeleteConfigurationSet",
+      "type": "control_plane",
+      "file": "pkg/resource/configuration_set/sdk.go",
+      "line": 194
+    },
+    {
+      "name": "DescribeConfigurationSet",
+      "type": "control_plane",
+      "file": "pkg/resource/configuration_set/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "CloneReceiptRuleSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateConfigurationSetEventDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateConfigurationSetTrackingOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCustomVerificationEmailTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateReceiptFilter",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateReceiptRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateReceiptRuleSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteConfigurationSetEventDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteConfigurationSetTrackingOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCustomVerificationEmailTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIdentity",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIdentityPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteReceiptFilter",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteReceiptRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteReceiptRuleSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVerifiedEmailAddress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeActiveReceiptRuleSet",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReceiptRule",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReceiptRuleSet",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccountSendingEnabled",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCustomVerificationEmailTemplate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIdentityDkimAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIdentityMailFromDomainAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIdentityNotificationAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIdentityPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIdentityVerificationAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSendQuota",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSendStatistics",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTemplate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListConfigurationSets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCustomVerificationEmailTemplates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListIdentities",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListIdentityPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListReceiptFilters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListReceiptRuleSets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTemplates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVerifiedEmailAddresses",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutConfigurationSetDeliveryOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutIdentityPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReorderReceiptRuleSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendBounce",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendBulkTemplatedEmail",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendCustomVerificationEmail",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendEmail",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendRawEmail",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendTemplatedEmail",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetActiveReceiptRuleSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetIdentityDkimEnabled",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetIdentityFeedbackForwardingEnabled",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetIdentityHeadersInNotificationsEnabled",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetIdentityMailFromDomain",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetIdentityNotificationTopic",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetReceiptRulePosition",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TestRenderTemplate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAccountSendingEnabled",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateConfigurationSetEventDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateConfigurationSetReputationMetricsEnabled",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateConfigurationSetSendingEnabled",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateConfigurationSetTrackingOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateCustomVerificationEmailTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateReceiptRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifyDomainDkim",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifyDomainIdentity",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifyEmailAddress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifyEmailIdentity",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

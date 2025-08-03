@@ -1,0 +1,153 @@
+{
+  "service_name": "mq",
+  "total_operations": 24,
+  "supported_operations": 4,
+  "control_plane_operations": 14,
+  "supported_control_plane_operations": 4,
+  "operations": [
+    {
+      "name": "CreateBroker",
+      "type": "control_plane",
+      "file": "pkg/resource/broker/sdk.go",
+      "line": 322
+    },
+    {
+      "name": "DeleteBroker",
+      "type": "control_plane",
+      "file": "pkg/resource/broker/sdk.go",
+      "line": 796
+    },
+    {
+      "name": "DescribeBroker",
+      "type": "control_plane",
+      "file": "pkg/resource/broker/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "UpdateBroker",
+      "type": "control_plane",
+      "file": "pkg/resource/broker/sdk.go",
+      "line": 547
+    },
+    {
+      "name": "CreateConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTags",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateUser",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTags",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteUser",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeBrokerEngineTypes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeBrokerInstanceOptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeConfigurationRevision",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeUser",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListBrokers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListConfigurationRevisions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListConfigurations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUsers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "Promote",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebootBroker",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateUser",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "service_name": "opensearchserverless",
+  "total_operations": 37,
+  "supported_operations": 11,
+  "control_plane_operations": 24,
+  "supported_control_plane_operations": 11,
+  "operations": [
+    {
+      "name": "BatchGetCollection",
+      "type": "control_plane",
+      "file": "pkg/resource/collection/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "CreateSecurityPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/security_policy/sdk.go",
+      "line": 178
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/sync/tags.go",
+      "line": 101
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/sync/tags.go",
+      "line": 30
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/sync/tags.go",
+      "line": 30
+    },
+    {
+      "name": "GetSecurityPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/security_policy/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DeleteCollection",
+      "type": "control_plane",
+      "file": "pkg/resource/collection/sdk.go",
+      "line": 443
+    },
+    {
+      "name": "UpdateCollection",
+      "type": "control_plane",
+      "file": "pkg/resource/collection/sdk.go",
+      "line": 352
+    },
+    {
+      "name": "CreateCollection",
+      "type": "control_plane",
+      "file": "pkg/resource/collection/sdk.go",
+      "line": 209
+    },
+    {
+      "name": "DeleteSecurityPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/security_policy/sdk.go",
+      "line": 354
+    },
+    {
+      "name": "UpdateSecurityPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/security_policy/sdk.go",
+      "line": 266
+    },
+    {
+      "name": "BatchGetEffectiveLifecyclePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchGetLifecyclePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchGetVpcEndpoint",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateLifecyclePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccountSettings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPoliciesStats",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAccountSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateVpcEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAccessPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpcEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAccessPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAccessPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListLifecyclePolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateLifecyclePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSecurityConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccessPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpcEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSecurityPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateSecurityConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSecurityConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVpcEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSecurityConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSecurityConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCollections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLifecyclePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAccessPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

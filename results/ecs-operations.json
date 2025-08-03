@@ -1,0 +1,369 @@
+{
+  "service_name": "ecs",
+  "total_operations": 60,
+  "supported_operations": 16,
+  "control_plane_operations": 43,
+  "supported_control_plane_operations": 16,
+  "operations": [
+    {
+      "name": "CreateCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 343
+    },
+    {
+      "name": "CreateService",
+      "type": "control_plane",
+      "file": "pkg/resource/service/sdk.go",
+      "line": 856
+    },
+    {
+      "name": "DeleteCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 957
+    },
+    {
+      "name": "DeleteService",
+      "type": "control_plane",
+      "file": "pkg/resource/service/sdk.go",
+      "line": 3173
+    },
+    {
+      "name": "DeregisterTaskDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/task_definition/sdk.go",
+      "line": 3597
+    },
+    {
+      "name": "DescribeClusters",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 86
+    },
+    {
+      "name": "DescribeServices",
+      "type": "control_plane",
+      "file": "pkg/resource/service/sdk.go",
+      "line": 87
+    },
+    {
+      "name": "DescribeTaskDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/task_definition/sdk.go",
+      "line": 82
+    },
+    {
+      "name": "ExecuteCommand",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/delta.go",
+      "line": 56
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 32
+    },
+    {
+      "name": "ListTaskDefinitions",
+      "type": "control_plane",
+      "file": "pkg/resource/task_definition/sdk.go",
+      "line": 3589
+    },
+    {
+      "name": "RegisterTaskDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/task_definition/sdk.go",
+      "line": 812
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 31
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 33
+    },
+    {
+      "name": "UpdateCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/cluster/sdk.go",
+      "line": 686
+    },
+    {
+      "name": "UpdateService",
+      "type": "control_plane",
+      "file": "pkg/resource/service/sdk.go",
+      "line": 2027
+    },
+    {
+      "name": "CreateCapacityProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTaskSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAccountSetting",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCapacityProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTaskDefinitions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTaskSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterContainerInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityProviders",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeContainerInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeServiceDeployments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeServiceRevisions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTaskSets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DiscoverPollEndpoint",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTaskProtection",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAccountSettings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClusters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListContainerInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListServiceDeployments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListServices",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListServicesByNamespace",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTaskDefinitionFamilies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutAccountSetting",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutAccountSettingDefault",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutClusterCapacityProviders",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterContainerInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RunTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopServiceDeployment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SubmitAttachmentStateChanges",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SubmitContainerStateChange",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SubmitTaskStateChange",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateCapacityProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateClusterSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateContainerAgent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateContainerInstancesState",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateServicePrimaryTaskSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTaskProtection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTaskSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

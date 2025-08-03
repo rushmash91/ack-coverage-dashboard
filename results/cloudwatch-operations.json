@@ -1,0 +1,237 @@
+{
+  "service_name": "cloudwatch",
+  "total_operations": 38,
+  "supported_operations": 3,
+  "control_plane_operations": 22,
+  "supported_control_plane_operations": 3,
+  "operations": [
+    {
+      "name": "DeleteAlarms",
+      "type": "control_plane",
+      "file": "pkg/resource/metric_alarm/sdk.go",
+      "line": 755
+    },
+    {
+      "name": "DescribeAlarms",
+      "type": "control_plane",
+      "file": "pkg/resource/metric_alarm/sdk.go",
+      "line": 80
+    },
+    {
+      "name": "PutMetricAlarm",
+      "type": "control_plane",
+      "file": "pkg/resource/metric_alarm/sdk.go",
+      "line": 320
+    },
+    {
+      "name": "DeleteAnomalyDetector",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDashboards",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteInsightRules",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteMetricStream",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAlarmHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAlarmsForMetric",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAnomalyDetectors",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInsightRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableAlarmActions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableInsightRules",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableAlarmActions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableInsightRules",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDashboard",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetInsightRuleReport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetMetricData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetMetricStatistics",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetMetricStream",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetMetricWidgetImage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDashboards",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListManagedInsightRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMetrics",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMetricStreams",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutAnomalyDetector",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutCompositeAlarm",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutDashboard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutInsightRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutManagedInsightRules",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutMetricData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutMetricStream",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetAlarmState",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartMetricStreams",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopMetricStreams",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

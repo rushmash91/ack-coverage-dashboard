@@ -1,0 +1,147 @@
+{
+  "service_name": "acmpca",
+  "total_operations": 23,
+  "supported_operations": 11,
+  "control_plane_operations": 17,
+  "supported_control_plane_operations": 11,
+  "operations": [
+    {
+      "name": "CreateCertificateAuthority",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate_authority/sdk.go",
+      "line": 464
+    },
+    {
+      "name": "DeleteCertificateAuthority",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate_authority/sdk.go",
+      "line": 892
+    },
+    {
+      "name": "DescribeCertificateAuthority",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate/sdk.go",
+      "line": 166
+    },
+    {
+      "name": "GetCertificate",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate/sdk.go",
+      "line": 67
+    },
+    {
+      "name": "GetCertificateAuthorityCsr",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate_authority/hooks.go",
+      "line": 30
+    },
+    {
+      "name": "ImportCertificateAuthorityCertificate",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate_authority_activation/sdk.go",
+      "line": 101
+    },
+    {
+      "name": "IssueCertificate",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate/sdk.go",
+      "line": 162
+    },
+    {
+      "name": "ListTags",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate_authority/hooks.go",
+      "line": 46
+    },
+    {
+      "name": "TagCertificateAuthority",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate_authority/hooks.go",
+      "line": 102
+    },
+    {
+      "name": "UntagCertificateAuthority",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate_authority/hooks.go",
+      "line": 87
+    },
+    {
+      "name": "UpdateCertificateAuthority",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate_authority/sdk.go",
+      "line": 809
+    },
+    {
+      "name": "CreateCertificateAuthorityAuditReport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCertificateAuthorityAuditReport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCertificateAuthorityCertificate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCertificateAuthorities",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPermissions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreCertificateAuthority",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RevokeCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

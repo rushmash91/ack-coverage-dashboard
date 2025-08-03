@@ -1,0 +1,417 @@
+{
+  "service_name": "route53resolver",
+  "total_operations": 68,
+  "supported_operations": 17,
+  "control_plane_operations": 42,
+  "supported_control_plane_operations": 17,
+  "operations": [
+    {
+      "name": "AssociateResolverEndpointIpAddress",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_endpoint/hook.go",
+      "line": 103
+    },
+    {
+      "name": "AssociateResolverRule",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_rule/hook.go",
+      "line": 237
+    },
+    {
+      "name": "CreateResolverEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_endpoint/sdk.go",
+      "line": 221
+    },
+    {
+      "name": "CreateResolverRule",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_rule/sdk.go",
+      "line": 244
+    },
+    {
+      "name": "DeleteResolverEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_endpoint/sdk.go",
+      "line": 511
+    },
+    {
+      "name": "DeleteResolverRule",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_rule/sdk.go",
+      "line": 445
+    },
+    {
+      "name": "DisassociateResolverEndpointIpAddress",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_endpoint/hook.go",
+      "line": 125
+    },
+    {
+      "name": "DisassociateResolverRule",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_rule/hook.go",
+      "line": 216
+    },
+    {
+      "name": "GetResolverEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_endpoint/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetResolverRule",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_rule/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "ListResolverEndpointIpAddresses",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_endpoint/hook.go",
+      "line": 37
+    },
+    {
+      "name": "ListResolverRuleAssociations",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_rule/hook.go",
+      "line": 45
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 42
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 63
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 63
+    },
+    {
+      "name": "UpdateResolverEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_endpoint/sdk.go",
+      "line": 387
+    },
+    {
+      "name": "UpdateResolverRule",
+      "type": "control_plane",
+      "file": "pkg/resource/resolver_rule/hook.go",
+      "line": 65
+    },
+    {
+      "name": "AssociateFirewallRuleGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateResolverQueryLogConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFirewallDomainList",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFirewallRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFirewallRuleGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateOutpostResolver",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateResolverQueryLogConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFirewallDomainList",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFirewallRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFirewallRuleGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteOutpostResolver",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteResolverQueryLogConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateFirewallRuleGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateResolverQueryLogConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFirewallConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFirewallDomainList",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFirewallRuleGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFirewallRuleGroupAssociation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFirewallRuleGroupPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetOutpostResolver",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResolverConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResolverDnssecConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResolverQueryLogConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResolverQueryLogConfigAssociation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResolverQueryLogConfigPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResolverRuleAssociation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResolverRulePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportFirewallDomains",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFirewallConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFirewallDomainLists",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFirewallDomains",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFirewallRuleGroupAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFirewallRuleGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFirewallRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListOutpostResolvers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResolverConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResolverDnssecConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResolverEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResolverQueryLogConfigAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResolverQueryLogConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResolverRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutFirewallRuleGroupPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutResolverQueryLogConfigPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutResolverRulePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallDomains",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallRuleGroupAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateOutpostResolver",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateResolverConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateResolverDnssecConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

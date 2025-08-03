@@ -1,0 +1,633 @@
+{
+  "service_name": "s3",
+  "total_operations": 104,
+  "supported_operations": 55,
+  "control_plane_operations": 62,
+  "supported_control_plane_operations": 55,
+  "operations": [
+    {
+      "name": "CreateBucket",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/delta.go",
+      "line": 83
+    },
+    {
+      "name": "DeleteBucket",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 846
+    },
+    {
+      "name": "DeleteBucketAnalyticsConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk_file_end.go",
+      "line": 382
+    },
+    {
+      "name": "DeleteBucketCors",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 848
+    },
+    {
+      "name": "DeleteBucketEncryption",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 923
+    },
+    {
+      "name": "DeleteBucketIntelligentTieringConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk_file_end.go",
+      "line": 875
+    },
+    {
+      "name": "DeleteBucketInventoryConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk_file_end.go",
+      "line": 1267
+    },
+    {
+      "name": "DeleteBucketLifecycle",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 999
+    },
+    {
+      "name": "DeleteBucketMetricsConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk_file_end.go",
+      "line": 1989
+    },
+    {
+      "name": "DeleteBucketOwnershipControls",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1161
+    },
+    {
+      "name": "DeleteBucketPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1239
+    },
+    {
+      "name": "DeleteBucketReplication",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1390
+    },
+    {
+      "name": "DeleteBucketTagging",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1514
+    },
+    {
+      "name": "DeleteBucketWebsite",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1639
+    },
+    {
+      "name": "DeletePublicAccessBlock",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1315
+    },
+    {
+      "name": "GetBucketAccelerateConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 317
+    },
+    {
+      "name": "GetBucketAcl",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/acl_custom.go",
+      "line": 176
+    },
+    {
+      "name": "GetBucketCors",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 351
+    },
+    {
+      "name": "GetBucketEncryption",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 363
+    },
+    {
+      "name": "GetBucketLifecycleConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 398
+    },
+    {
+      "name": "GetBucketLogging",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 410
+    },
+    {
+      "name": "GetBucketNotificationConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 433
+    },
+    {
+      "name": "GetBucketOwnershipControls",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 446
+    },
+    {
+      "name": "GetBucketPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 458
+    },
+    {
+      "name": "GetBucketReplication",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 482
+    },
+    {
+      "name": "GetBucketRequestPayment",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 494
+    },
+    {
+      "name": "GetBucketTagging",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 504
+    },
+    {
+      "name": "GetBucketVersioning",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 516
+    },
+    {
+      "name": "GetBucketWebsite",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 526
+    },
+    {
+      "name": "GetObject",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/resource.go",
+      "line": 64
+    },
+    {
+      "name": "GetPublicAccessBlock",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 470
+    },
+    {
+      "name": "ListBucketAnalyticsConfigurations",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 332
+    },
+    {
+      "name": "ListBucketIntelligentTieringConfigurations",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 375
+    },
+    {
+      "name": "ListBucketInventoryConfigurations",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 388
+    },
+    {
+      "name": "ListBucketMetricsConfigurations",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 420
+    },
+    {
+      "name": "ListBuckets",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "PutBucketAccelerateConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 685
+    },
+    {
+      "name": "PutBucketAcl",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 764
+    },
+    {
+      "name": "PutBucketAnalyticsConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk_file_end.go",
+      "line": 370
+    },
+    {
+      "name": "PutBucketCors",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 834
+    },
+    {
+      "name": "PutBucketEncryption",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 913
+    },
+    {
+      "name": "PutBucketIntelligentTieringConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk_file_end.go",
+      "line": 863
+    },
+    {
+      "name": "PutBucketInventoryConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk_file_end.go",
+      "line": 1255
+    },
+    {
+      "name": "PutBucketLifecycleConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 992
+    },
+    {
+      "name": "PutBucketLogging",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1065
+    },
+    {
+      "name": "PutBucketMetricsConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/sdk_file_end.go",
+      "line": 1977
+    },
+    {
+      "name": "PutBucketNotificationConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1110
+    },
+    {
+      "name": "PutBucketOwnershipControls",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1151
+    },
+    {
+      "name": "PutBucketPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1228
+    },
+    {
+      "name": "PutBucketReplication",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1381
+    },
+    {
+      "name": "PutBucketRequestPayment",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1456
+    },
+    {
+      "name": "PutBucketTagging",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1504
+    },
+    {
+      "name": "PutBucketVersioning",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1581
+    },
+    {
+      "name": "PutBucketWebsite",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1629
+    },
+    {
+      "name": "PutPublicAccessBlock",
+      "type": "control_plane",
+      "file": "pkg/resource/bucket/hook.go",
+      "line": 1305
+    },
+    {
+      "name": "AbortMultipartUpload",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CompleteMultipartUpload",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyObject",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateBucketMetadataConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateBucketMetadataTableConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateMultipartUpload",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSession",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteBucketMetadataConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteBucketMetadataTableConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteObject",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteObjects",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteObjectTagging",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetBucketAnalyticsConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetBucketIntelligentTieringConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetBucketInventoryConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetBucketLocation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetBucketMetadataConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetBucketMetadataTableConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetBucketMetricsConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetBucketPolicyStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetObjectAcl",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetObjectAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetObjectLegalHold",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetObjectLockConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetObjectRetention",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetObjectTagging",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetObjectTorrent",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "HeadBucket",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "HeadObject",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDirectoryBuckets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMultipartUploads",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListObjects",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListObjectsV2",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListObjectVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListParts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutObject",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutObjectAcl",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutObjectLegalHold",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutObjectLockConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutObjectRetention",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutObjectTagging",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RenameObject",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreObject",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SelectObjectContent",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateBucketMetadataInventoryTableConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateBucketMetadataJournalTableConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UploadPart",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UploadPartCopy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "WriteGetObjectResponse",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

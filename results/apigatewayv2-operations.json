@@ -1,0 +1,471 @@
+{
+  "service_name": "apigatewayv2",
+  "total_operations": 77,
+  "supported_operations": 38,
+  "control_plane_operations": 57,
+  "supported_control_plane_operations": 38,
+  "operations": [
+    {
+      "name": "CreateApi",
+      "type": "control_plane",
+      "file": "pkg/resource/api/custom_http_api.go",
+      "line": 17
+    },
+    {
+      "name": "CreateApiMapping",
+      "type": "control_plane",
+      "file": "pkg/resource/api_mapping/sdk.go",
+      "line": 161
+    },
+    {
+      "name": "CreateAuthorizer",
+      "type": "control_plane",
+      "file": "pkg/resource/authorizer/sdk.go",
+      "line": 206
+    },
+    {
+      "name": "CreateDeployment",
+      "type": "control_plane",
+      "file": "pkg/resource/deployment/sdk.go",
+      "line": 171
+    },
+    {
+      "name": "CreateDomainName",
+      "type": "control_plane",
+      "file": "pkg/resource/domain_name/sdk.go",
+      "line": 191
+    },
+    {
+      "name": "CreateIntegration",
+      "type": "control_plane",
+      "file": "pkg/resource/integration/sdk.go",
+      "line": 252
+    },
+    {
+      "name": "CreateRoute",
+      "type": "control_plane",
+      "file": "pkg/resource/route/sdk.go",
+      "line": 215
+    },
+    {
+      "name": "CreateStage",
+      "type": "control_plane",
+      "file": "pkg/resource/stage/sdk.go",
+      "line": 258
+    },
+    {
+      "name": "CreateVpcLink",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_link/sdk.go",
+      "line": 184
+    },
+    {
+      "name": "DeleteApi",
+      "type": "control_plane",
+      "file": "pkg/resource/api/sdk.go",
+      "line": 460
+    },
+    {
+      "name": "DeleteApiMapping",
+      "type": "control_plane",
+      "file": "pkg/resource/api_mapping/sdk.go",
+      "line": 317
+    },
+    {
+      "name": "DeleteAuthorizer",
+      "type": "control_plane",
+      "file": "pkg/resource/authorizer/sdk.go",
+      "line": 514
+    },
+    {
+      "name": "DeleteDeployment",
+      "type": "control_plane",
+      "file": "pkg/resource/deployment/sdk.go",
+      "line": 338
+    },
+    {
+      "name": "DeleteDomainName",
+      "type": "control_plane",
+      "file": "pkg/resource/domain_name/sdk.go",
+      "line": 459
+    },
+    {
+      "name": "DeleteIntegration",
+      "type": "control_plane",
+      "file": "pkg/resource/integration/sdk.go",
+      "line": 696
+    },
+    {
+      "name": "DeleteRoute",
+      "type": "control_plane",
+      "file": "pkg/resource/route/sdk.go",
+      "line": 541
+    },
+    {
+      "name": "DeleteStage",
+      "type": "control_plane",
+      "file": "pkg/resource/stage/sdk.go",
+      "line": 750
+    },
+    {
+      "name": "DeleteVpcLink",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_link/sdk.go",
+      "line": 384
+    },
+    {
+      "name": "GetApi",
+      "type": "control_plane",
+      "file": "pkg/resource/api/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "GetApiMapping",
+      "type": "control_plane",
+      "file": "pkg/resource/api_mapping/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "GetAuthorizer",
+      "type": "control_plane",
+      "file": "pkg/resource/authorizer/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "GetDeployment",
+      "type": "control_plane",
+      "file": "pkg/resource/deployment/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "GetDomainName",
+      "type": "control_plane",
+      "file": "pkg/resource/domain_name/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetIntegration",
+      "type": "control_plane",
+      "file": "pkg/resource/integration/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "GetRoute",
+      "type": "control_plane",
+      "file": "pkg/resource/route/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetStage",
+      "type": "control_plane",
+      "file": "pkg/resource/stage/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "GetVpcLink",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_link/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "ImportApi",
+      "type": "control_plane",
+      "file": "pkg/resource/api/custom_http_api.go",
+      "line": 27
+    },
+    {
+      "name": "ReimportApi",
+      "type": "control_plane",
+      "file": "pkg/resource/api/custom_http_api.go",
+      "line": 52
+    },
+    {
+      "name": "UpdateApi",
+      "type": "control_plane",
+      "file": "pkg/resource/api/custom_http_api.go",
+      "line": 42
+    },
+    {
+      "name": "UpdateApiMapping",
+      "type": "control_plane",
+      "file": "pkg/resource/api_mapping/sdk.go",
+      "line": 239
+    },
+    {
+      "name": "UpdateAuthorizer",
+      "type": "control_plane",
+      "file": "pkg/resource/authorizer/sdk.go",
+      "line": 360
+    },
+    {
+      "name": "UpdateDeployment",
+      "type": "control_plane",
+      "file": "pkg/resource/deployment/sdk.go",
+      "line": 256
+    },
+    {
+      "name": "UpdateDomainName",
+      "type": "control_plane",
+      "file": "pkg/resource/domain_name/sdk.go",
+      "line": 328
+    },
+    {
+      "name": "UpdateIntegration",
+      "type": "control_plane",
+      "file": "pkg/resource/integration/sdk.go",
+      "line": 474
+    },
+    {
+      "name": "UpdateRoute",
+      "type": "control_plane",
+      "file": "pkg/resource/route/sdk.go",
+      "line": 378
+    },
+    {
+      "name": "UpdateStage",
+      "type": "control_plane",
+      "file": "pkg/resource/stage/sdk.go",
+      "line": 509
+    },
+    {
+      "name": "UpdateVpcLink",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_link/sdk.go",
+      "line": 290
+    },
+    {
+      "name": "CreateIntegrationResponse",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateModel",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRouteResponse",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRoutingRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAccessLogSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCorsConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIntegrationResponse",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteModel",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRouteRequestParameter",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRouteResponse",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRouteSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRoutingRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportApi",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetApiMappings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetApis",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAuthorizers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDeployments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDomainNames",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIntegrationResponse",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIntegrationResponses",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIntegrations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetModel",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetModels",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetModelTemplate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRouteResponse",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRouteResponses",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRoutes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRoutingRule",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetStages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetVpcLinks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRoutingRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRoutingRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetAuthorizersCache",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateIntegrationResponse",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateModel",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateRouteResponse",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "service_name": "pipes",
+  "total_operations": 10,
+  "supported_operations": 6,
+  "control_plane_operations": 8,
+  "supported_control_plane_operations": 6,
+  "operations": [
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/pipe/hooks_tags.go",
+      "line": 23
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/pipe/hooks_tags.go",
+      "line": 23
+    },
+    {
+      "name": "DescribePipe",
+      "type": "control_plane",
+      "file": "pkg/resource/pipe/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "UpdatePipe",
+      "type": "control_plane",
+      "file": "pkg/resource/pipe/hooks.go",
+      "line": 990
+    },
+    {
+      "name": "DeletePipe",
+      "type": "control_plane",
+      "file": "pkg/resource/pipe/sdk.go",
+      "line": 2749
+    },
+    {
+      "name": "CreatePipe",
+      "type": "control_plane",
+      "file": "pkg/resource/pipe/sdk.go",
+      "line": 903
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartPipe",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopPipe",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPipes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

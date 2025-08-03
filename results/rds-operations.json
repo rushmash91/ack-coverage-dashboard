@@ -1,0 +1,987 @@
+{
+  "service_name": "rds",
+  "total_operations": 163,
+  "supported_operations": 53,
+  "control_plane_operations": 130,
+  "supported_control_plane_operations": 53,
+  "operations": [
+    {
+      "name": "AddTagsToResource",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 163
+    },
+    {
+      "name": "CreateDBCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/sdk.go",
+      "line": 696
+    },
+    {
+      "name": "CreateDBClusterEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_endpoint/sdk.go",
+      "line": 204
+    },
+    {
+      "name": "CreateDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_parameter_group/sdk.go",
+      "line": 186
+    },
+    {
+      "name": "CreateDBClusterSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_snapshot/sdk.go",
+      "line": 296
+    },
+    {
+      "name": "CreateDBInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/hooks.go",
+      "line": 210
+    },
+    {
+      "name": "CreateDBInstanceReadReplica",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/hooks.go",
+      "line": 210
+    },
+    {
+      "name": "CreateDBParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_parameter_group/sdk.go",
+      "line": 186
+    },
+    {
+      "name": "CreateDBProxy",
+      "type": "control_plane",
+      "file": "pkg/resource/db_proxy/sdk.go",
+      "line": 253
+    },
+    {
+      "name": "CreateDBSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/db_snapshot/sdk.go",
+      "line": 352
+    },
+    {
+      "name": "CreateDBSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_subnet_group/sdk.go",
+      "line": 226
+    },
+    {
+      "name": "CreateGlobalCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/global_cluster/sdk.go",
+      "line": 233
+    },
+    {
+      "name": "DeleteDBCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 388
+    },
+    {
+      "name": "DeleteDBClusterEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_endpoint/sdk.go",
+      "line": 437
+    },
+    {
+      "name": "DeleteDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_parameter_group/sdk.go",
+      "line": 288
+    },
+    {
+      "name": "DeleteDBClusterSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_snapshot/sdk.go",
+      "line": 509
+    },
+    {
+      "name": "DeleteDBInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/hooks.go",
+      "line": 564
+    },
+    {
+      "name": "DeleteDBParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_parameter_group/sdk.go",
+      "line": 288
+    },
+    {
+      "name": "DeleteDBProxy",
+      "type": "control_plane",
+      "file": "pkg/resource/db_proxy/sdk.go",
+      "line": 702
+    },
+    {
+      "name": "DeleteDBSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/db_snapshot/sdk.go",
+      "line": 853
+    },
+    {
+      "name": "DeleteDBSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_subnet_group/sdk.go",
+      "line": 476
+    },
+    {
+      "name": "DeleteGlobalCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/global_cluster/sdk.go",
+      "line": 530
+    },
+    {
+      "name": "DescribeDBClusterEndpoints",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_endpoint/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeDBClusterParameterGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_parameter_group/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeDBClusterParameters",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_parameter_group/hooks.go",
+      "line": 274
+    },
+    {
+      "name": "DescribeDBClusters",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeDBClusterSnapshots",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_snapshot/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeDBInstances",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeDBParameterGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/db_parameter_group/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeDBParameters",
+      "type": "control_plane",
+      "file": "pkg/resource/db_parameter_group/hooks.go",
+      "line": 272
+    },
+    {
+      "name": "DescribeDBProxies",
+      "type": "control_plane",
+      "file": "pkg/resource/db_proxy/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeDBSnapshots",
+      "type": "control_plane",
+      "file": "pkg/resource/db_snapshot/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeDBSubnetGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/db_subnet_group/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeEngineDefaultClusterParameters",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_parameter_group/hooks.go",
+      "line": 219
+    },
+    {
+      "name": "DescribeEngineDefaultParameters",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_parameter_group/hooks.go",
+      "line": 444
+    },
+    {
+      "name": "DescribeGlobalClusters",
+      "type": "control_plane",
+      "file": "pkg/resource/global_cluster/sdk.go",
+      "line": 76
+    },
+    {
+      "name": "EnableHttpEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/custom_update.go",
+      "line": 543
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 162
+    },
+    {
+      "name": "ModifyDBCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/custom_update.go",
+      "line": 40
+    },
+    {
+      "name": "ModifyDBClusterEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_endpoint/sdk.go",
+      "line": 326
+    },
+    {
+      "name": "ModifyDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_parameter_group/hooks.go",
+      "line": 356
+    },
+    {
+      "name": "ModifyDBInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/custom_update.go",
+      "line": 478
+    },
+    {
+      "name": "ModifyDBParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_parameter_group/hooks.go",
+      "line": 233
+    },
+    {
+      "name": "ModifyDBProxy",
+      "type": "control_plane",
+      "file": "pkg/resource/db_proxy/sdk.go",
+      "line": 500
+    },
+    {
+      "name": "ModifyDBSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/db_snapshot/sdk.go",
+      "line": 623
+    },
+    {
+      "name": "ModifyDBSubnetGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_subnet_group/sdk.go",
+      "line": 357
+    },
+    {
+      "name": "ModifyGlobalCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/global_cluster/sdk.go",
+      "line": 389
+    },
+    {
+      "name": "RemoveTagsFromResource",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 164
+    },
+    {
+      "name": "ResetDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster_parameter_group/hooks.go",
+      "line": 215
+    },
+    {
+      "name": "ResetDBParameterGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/db_parameter_group/hooks.go",
+      "line": 208
+    },
+    {
+      "name": "RestoreDBClusterFromSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 290
+    },
+    {
+      "name": "RestoreDBClusterToPointInTime",
+      "type": "control_plane",
+      "file": "pkg/resource/db_cluster/hooks.go",
+      "line": 323
+    },
+    {
+      "name": "RestoreDBInstanceFromDBSnapshot",
+      "type": "control_plane",
+      "file": "pkg/resource/db_instance/hooks.go",
+      "line": 186
+    },
+    {
+      "name": "AddRoleToDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AddRoleToDBInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AddSourceIdentifierToSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ApplyPendingMaintenanceAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AuthorizeDBSecurityGroupIngress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BacktrackDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelExportTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyDBClusterParameterGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyDBClusterSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyDBParameterGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyDBSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyOptionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateBlueGreenDeployment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCustomDBEngineVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDBProxyEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDBSecurityGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDBShardGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateEventSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateIntegration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateOptionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTenantDatabase",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteBlueGreenDeployment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCustomDBEngineVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDBClusterAutomatedBackup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDBInstanceAutomatedBackup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDBProxyEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDBSecurityGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDBShardGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteEventSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIntegration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteOptionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTenantDatabase",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterDBProxyTargets",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAccountAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeBlueGreenDeployments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCertificates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBClusterAutomatedBackups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBClusterBacktracks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBClusterSnapshotAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBEngineVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBInstanceAutomatedBackups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBLogFiles",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBMajorEngineVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBProxyEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBProxyTargetGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBProxyTargets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBRecommendations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBSecurityGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBShardGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBSnapshotAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDBSnapshotTenantDatabases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEventCategories",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEvents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEventSubscriptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeExportTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIntegrations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeOptionGroupOptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeOptionGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeOrderableDBInstanceOptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePendingMaintenanceActions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedDBInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedDBInstancesOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSourceRegions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTenantDatabases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeValidDBInstanceModifications",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableHttpEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DownloadDBLogFilePortion",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "FailoverDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "FailoverGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyActivityStream",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyCertificates",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyCurrentDBClusterCapacity",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyCustomDBEngineVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDBClusterSnapshotAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDBProxyEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDBProxyTargetGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDBRecommendation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDBShardGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDBSnapshotAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyEventSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIntegration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyOptionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyTenantDatabase",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PromoteReadReplica",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PromoteReadReplicaDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseReservedDBInstancesOffering",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebootDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebootDBInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebootDBShardGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterDBProxyTargets",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveFromGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveRoleFromDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveRoleFromDBInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveSourceIdentifierFromSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreDBClusterFromS3",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreDBInstanceFromS3",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreDBInstanceToPointInTime",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RevokeDBSecurityGroupIngress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartActivityStream",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartDBInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartDBInstanceAutomatedBackupsReplication",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartExportTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopActivityStream",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopDBCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopDBInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopDBInstanceAutomatedBackupsReplication",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SwitchoverBlueGreenDeployment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SwitchoverGlobalCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SwitchoverReadReplica",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

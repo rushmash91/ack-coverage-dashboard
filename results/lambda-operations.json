@@ -1,0 +1,417 @@
+{
+  "service_name": "lambda",
+  "total_operations": 68,
+  "supported_operations": 46,
+  "control_plane_operations": 51,
+  "supported_control_plane_operations": 46,
+  "operations": [
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 350
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 350
+    },
+    {
+      "name": "ListLayerVersions",
+      "type": "control_plane",
+      "file": "pkg/resource/layer_version/hooks.go",
+      "line": 34
+    },
+    {
+      "name": "DeleteProvisionedConcurrencyConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 96
+    },
+    {
+      "name": "GetProvisionedConcurrencyConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 146
+    },
+    {
+      "name": "DeleteAlias",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/sdk.go",
+      "line": 426
+    },
+    {
+      "name": "DeleteLayerVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/layer_version/hooks.go",
+      "line": 56
+    },
+    {
+      "name": "DeleteFunctionEventInvokeConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 34
+    },
+    {
+      "name": "CreateAlias",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/sdk.go",
+      "line": 181
+    },
+    {
+      "name": "CreateFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/function/sdk.go",
+      "line": 451
+    },
+    {
+      "name": "GetFunctionConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/version/sdk.go",
+      "line": 81
+    },
+    {
+      "name": "PublishLayerVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/layer_version/sdk.go",
+      "line": 192
+    },
+    {
+      "name": "UpdateFunctionConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 109
+    },
+    {
+      "name": "GetCodeSigningConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/code_signing_config/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetFunctionCodeSigningConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 737
+    },
+    {
+      "name": "GetAlias",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "ListVersionsByFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/version/sdk.go",
+      "line": 417
+    },
+    {
+      "name": "CreateFunctionUrlConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/function_url_config/sdk.go",
+      "line": 188
+    },
+    {
+      "name": "DeleteFunctionConcurrency",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 554
+    },
+    {
+      "name": "GetEventSourceMapping",
+      "type": "control_plane",
+      "file": "pkg/resource/event_source_mapping/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "PutProvisionedConcurrencyConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 95
+    },
+    {
+      "name": "Invoke",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/delta.go",
+      "line": 54
+    },
+    {
+      "name": "UpdateAlias",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/sdk.go",
+      "line": 325
+    },
+    {
+      "name": "PutFunctionConcurrency",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 535
+    },
+    {
+      "name": "GetPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 294
+    },
+    {
+      "name": "PublishVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/version/sdk.go",
+      "line": 437
+    },
+    {
+      "name": "DeleteEventSourceMapping",
+      "type": "control_plane",
+      "file": "pkg/resource/event_source_mapping/sdk.go",
+      "line": 1155
+    },
+    {
+      "name": "DeleteFunctionUrlConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/function_url_config/sdk.go",
+      "line": 439
+    },
+    {
+      "name": "GetFunctionEventInvokeConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 174
+    },
+    {
+      "name": "CreateEventSourceMapping",
+      "type": "control_plane",
+      "file": "pkg/resource/event_source_mapping/sdk.go",
+      "line": 348
+    },
+    {
+      "name": "UpdateFunctionUrlConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/function_url_config/sdk.go",
+      "line": 315
+    },
+    {
+      "name": "GetFunctionUrlConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/function_url_config/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "UpdateEventSourceMapping",
+      "type": "control_plane",
+      "file": "pkg/resource/event_source_mapping/sdk.go",
+      "line": 776
+    },
+    {
+      "name": "PutFunctionCodeSigningConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 627
+    },
+    {
+      "name": "CreateCodeSigningConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/code_signing_config/sdk.go",
+      "line": 179
+    },
+    {
+      "name": "GetFunctionConcurrency",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 695
+    },
+    {
+      "name": "DeleteFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 34
+    },
+    {
+      "name": "AddPermission",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 222
+    },
+    {
+      "name": "UpdateFunctionCode",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 110
+    },
+    {
+      "name": "RemovePermission",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 434
+    },
+    {
+      "name": "DeleteCodeSigningConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/code_signing_config/sdk.go",
+      "line": 385
+    },
+    {
+      "name": "PutFunctionEventInvokeConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 33
+    },
+    {
+      "name": "GetLayerVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/layer_version/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/alias/hooks.go",
+      "line": 174
+    },
+    {
+      "name": "UpdateCodeSigningConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/code_signing_config/sdk.go",
+      "line": 282
+    },
+    {
+      "name": "DeleteFunctionCodeSigningConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 668
+    },
+    {
+      "name": "GetAccountSettings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListLayers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCodeSigningConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFunctionUrlConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetLayerVersionPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFunctionRecursionConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFunctionsByCodeSigningConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFunctionEventInvokeConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRuntimeManagementConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemoveLayerVersionPermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "InvokeAsync",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "InvokeWithResponseStream",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEventSourceMappings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetLayerVersionByArn",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAliases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutFunctionRecursionConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRuntimeManagementConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListProvisionedConcurrencyConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFunctions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AddLayerVersionPermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFunctionEventInvokeConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

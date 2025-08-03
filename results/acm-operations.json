@@ -1,0 +1,105 @@
+{
+  "service_name": "acm",
+  "total_operations": 16,
+  "supported_operations": 8,
+  "control_plane_operations": 12,
+  "supported_control_plane_operations": 8,
+  "operations": [
+    {
+      "name": "AddTagsToCertificate",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 31
+    },
+    {
+      "name": "DeleteCertificate",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate/sdk.go",
+      "line": 578
+    },
+    {
+      "name": "DescribeCertificate",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "ImportCertificate",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate/hooks.go",
+      "line": 67
+    },
+    {
+      "name": "ListTagsForCertificate",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 32
+    },
+    {
+      "name": "RemoveTagsFromCertificate",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 33
+    },
+    {
+      "name": "RequestCertificate",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate/sdk.go",
+      "line": 407
+    },
+    {
+      "name": "UpdateCertificateOptions",
+      "type": "control_plane",
+      "file": "pkg/resource/certificate/sdk.go",
+      "line": 526
+    },
+    {
+      "name": "ExportCertificate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccountConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCertificate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCertificates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutAccountConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RenewCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResendValidationEmail",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RevokeCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

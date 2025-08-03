@@ -1,0 +1,4137 @@
+{
+  "service_name": "ec2",
+  "total_operations": 688,
+  "supported_operations": 91,
+  "control_plane_operations": 474,
+  "supported_control_plane_operations": 91,
+  "operations": [
+    {
+      "name": "AcceptVpcPeeringConnection",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_peering_connection/sdk.go",
+      "line": 570
+    },
+    {
+      "name": "AllocateAddress",
+      "type": "control_plane",
+      "file": "pkg/resource/elastic_ip_address/hooks.go",
+      "line": 57
+    },
+    {
+      "name": "AssociateDhcpOptions",
+      "type": "control_plane",
+      "file": "pkg/resource/dhcp_options/hooks.go",
+      "line": 171
+    },
+    {
+      "name": "AssociateRouteTable",
+      "type": "control_plane",
+      "file": "pkg/resource/internet_gateway/hooks.go",
+      "line": 265
+    },
+    {
+      "name": "AssociateVpcCidrBlock",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc/hooks.go",
+      "line": 202
+    },
+    {
+      "name": "AttachInternetGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/internet_gateway/hooks.go",
+      "line": 118
+    },
+    {
+      "name": "AuthorizeSecurityGroupEgress",
+      "type": "control_plane",
+      "file": "pkg/resource/security_group/hooks.go",
+      "line": 293
+    },
+    {
+      "name": "AuthorizeSecurityGroupIngress",
+      "type": "control_plane",
+      "file": "pkg/resource/security_group/hooks.go",
+      "line": 254
+    },
+    {
+      "name": "CancelCapacityReservation",
+      "type": "control_plane",
+      "file": "pkg/resource/capacity_reservation/sdk.go",
+      "line": 707
+    },
+    {
+      "name": "CreateCapacityReservation",
+      "type": "control_plane",
+      "file": "pkg/resource/capacity_reservation/hooks.go",
+      "line": 12
+    },
+    {
+      "name": "CreateDhcpOptions",
+      "type": "control_plane",
+      "file": "pkg/resource/dhcp_options/hooks.go",
+      "line": 134
+    },
+    {
+      "name": "CreateFlowLogs",
+      "type": "control_plane",
+      "file": "pkg/resource/flow_log/hooks.go",
+      "line": 57
+    },
+    {
+      "name": "CreateInternetGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/internet_gateway/hooks.go",
+      "line": 158
+    },
+    {
+      "name": "CreateLaunchTemplate",
+      "type": "control_plane",
+      "file": "pkg/resource/launch_template/hooks.go",
+      "line": 216
+    },
+    {
+      "name": "CreateLaunchTemplateVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/launch_template/sdk.go",
+      "line": 1065
+    },
+    {
+      "name": "CreateNatGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/nat_gateway/hooks.go",
+      "line": 74
+    },
+    {
+      "name": "CreateNetworkAcl",
+      "type": "control_plane",
+      "file": "pkg/resource/network_acl/hooks.go",
+      "line": 83
+    },
+    {
+      "name": "CreateNetworkAclEntry",
+      "type": "control_plane",
+      "file": "pkg/resource/network_acl/hooks.go",
+      "line": 437
+    },
+    {
+      "name": "CreateRoute",
+      "type": "control_plane",
+      "file": "pkg/resource/route_table/hooks.go",
+      "line": 67
+    },
+    {
+      "name": "CreateRouteTable",
+      "type": "control_plane",
+      "file": "pkg/resource/route_table/hooks.go",
+      "line": 322
+    },
+    {
+      "name": "CreateSecurityGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/security_group/hooks.go",
+      "line": 189
+    },
+    {
+      "name": "CreateSubnet",
+      "type": "control_plane",
+      "file": "pkg/resource/subnet/hooks.go",
+      "line": 376
+    },
+    {
+      "name": "CreateTags",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 34
+    },
+    {
+      "name": "CreateTransitGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/transit_gateway/hooks.go",
+      "line": 73
+    },
+    {
+      "name": "CreateTransitGatewayVpcAttachment",
+      "type": "control_plane",
+      "file": "pkg/resource/transit_gateway_vpc_attachment/hooks.go",
+      "line": 46
+    },
+    {
+      "name": "CreateVpc",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc/hooks.go",
+      "line": 339
+    },
+    {
+      "name": "CreateVpcEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint/hooks.go",
+      "line": 150
+    },
+    {
+      "name": "CreateVpcEndpointServiceConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint_service_configuration/sdk.go",
+      "line": 265
+    },
+    {
+      "name": "CreateVpcPeeringConnection",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_peering_connection/hooks.go",
+      "line": 98
+    },
+    {
+      "name": "DeleteDhcpOptions",
+      "type": "control_plane",
+      "file": "pkg/resource/dhcp_options/sdk.go",
+      "line": 332
+    },
+    {
+      "name": "DeleteFlowLogs",
+      "type": "control_plane",
+      "file": "pkg/resource/flow_log/sdk.go",
+      "line": 345
+    },
+    {
+      "name": "DeleteInternetGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/internet_gateway/sdk.go",
+      "line": 317
+    },
+    {
+      "name": "DeleteLaunchTemplate",
+      "type": "control_plane",
+      "file": "pkg/resource/launch_template/sdk.go",
+      "line": 2497
+    },
+    {
+      "name": "DeleteNatGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/nat_gateway/sdk.go",
+      "line": 426
+    },
+    {
+      "name": "DeleteNetworkAcl",
+      "type": "control_plane",
+      "file": "pkg/resource/network_acl/hooks.go",
+      "line": 555
+    },
+    {
+      "name": "DeleteNetworkAclEntry",
+      "type": "control_plane",
+      "file": "pkg/resource/network_acl/hooks.go",
+      "line": 555
+    },
+    {
+      "name": "DeleteRoute",
+      "type": "control_plane",
+      "file": "pkg/resource/route_table/hooks.go",
+      "line": 121
+    },
+    {
+      "name": "DeleteRouteTable",
+      "type": "control_plane",
+      "file": "pkg/resource/route_table/sdk.go",
+      "line": 507
+    },
+    {
+      "name": "DeleteSecurityGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/security_group/sdk.go",
+      "line": 323
+    },
+    {
+      "name": "DeleteSubnet",
+      "type": "control_plane",
+      "file": "pkg/resource/subnet/sdk.go",
+      "line": 565
+    },
+    {
+      "name": "DeleteTags",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 36
+    },
+    {
+      "name": "DeleteTransitGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/transit_gateway/sdk.go",
+      "line": 396
+    },
+    {
+      "name": "DeleteTransitGatewayVpcAttachment",
+      "type": "control_plane",
+      "file": "pkg/resource/transit_gateway_vpc_attachment/sdk.go",
+      "line": 512
+    },
+    {
+      "name": "DeleteVpc",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc/sdk.go",
+      "line": 488
+    },
+    {
+      "name": "DeleteVpcEndpoints",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint/hooks.go",
+      "line": 51
+    },
+    {
+      "name": "DeleteVpcEndpointServiceConfigurations",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint_service_configuration/hooks.go",
+      "line": 42
+    },
+    {
+      "name": "DeleteVpcPeeringConnection",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_peering_connection/sdk.go",
+      "line": 732
+    },
+    {
+      "name": "DescribeAddresses",
+      "type": "control_plane",
+      "file": "pkg/resource/elastic_ip_address/sdk.go",
+      "line": 85
+    },
+    {
+      "name": "DescribeCapacityReservations",
+      "type": "control_plane",
+      "file": "pkg/resource/capacity_reservation/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeDhcpOptions",
+      "type": "control_plane",
+      "file": "pkg/resource/dhcp_options/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeFlowLogs",
+      "type": "control_plane",
+      "file": "pkg/resource/flow_log/sdk.go",
+      "line": 82
+    },
+    {
+      "name": "DescribeInstances",
+      "type": "control_plane",
+      "file": "pkg/resource/instance/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeInternetGateways",
+      "type": "control_plane",
+      "file": "pkg/resource/internet_gateway/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeLaunchTemplates",
+      "type": "control_plane",
+      "file": "pkg/resource/launch_template/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeLaunchTemplateVersions",
+      "type": "control_plane",
+      "file": "pkg/resource/launch_template/hooks.go",
+      "line": 33
+    },
+    {
+      "name": "DescribeManagedPrefixLists",
+      "type": "control_plane",
+      "file": "pkg/resource/route_table/hooks.go",
+      "line": 280
+    },
+    {
+      "name": "DescribeNatGateways",
+      "type": "control_plane",
+      "file": "pkg/resource/nat_gateway/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeNetworkAcls",
+      "type": "control_plane",
+      "file": "pkg/resource/network_acl/hooks.go",
+      "line": 183
+    },
+    {
+      "name": "DescribeRouteTables",
+      "type": "control_plane",
+      "file": "pkg/resource/internet_gateway/hooks.go",
+      "line": 319
+    },
+    {
+      "name": "DescribeSecurityGroupRules",
+      "type": "control_plane",
+      "file": "pkg/resource/security_group/hooks.go",
+      "line": 61
+    },
+    {
+      "name": "DescribeSecurityGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/security_group/hooks.go",
+      "line": 33
+    },
+    {
+      "name": "DescribeSubnets",
+      "type": "control_plane",
+      "file": "pkg/resource/subnet/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeTags",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 35
+    },
+    {
+      "name": "DescribeTransitGateways",
+      "type": "control_plane",
+      "file": "pkg/resource/transit_gateway/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeTransitGatewayVpcAttachments",
+      "type": "control_plane",
+      "file": "pkg/resource/transit_gateway_vpc_attachment/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeVpcAttribute",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc/hooks.go",
+      "line": 36
+    },
+    {
+      "name": "DescribeVpcEndpoints",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeVpcEndpointServiceConfigurations",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint_service_configuration/sdk.go",
+      "line": 80
+    },
+    {
+      "name": "DescribeVpcEndpointServicePermissions",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint_service_configuration/hooks.go",
+      "line": 132
+    },
+    {
+      "name": "DescribeVpcPeeringConnections",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_peering_connection/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeVpcs",
+      "type": "control_plane",
+      "file": "pkg/resource/dhcp_options/hooks.go",
+      "line": 111
+    },
+    {
+      "name": "DetachInternetGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/internet_gateway/hooks.go",
+      "line": 143
+    },
+    {
+      "name": "DisassociateRouteTable",
+      "type": "control_plane",
+      "file": "pkg/resource/internet_gateway/hooks.go",
+      "line": 293
+    },
+    {
+      "name": "DisassociateVpcCidrBlock",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc/hooks.go",
+      "line": 186
+    },
+    {
+      "name": "ModifyCapacityReservation",
+      "type": "control_plane",
+      "file": "pkg/resource/capacity_reservation/sdk.go",
+      "line": 616
+    },
+    {
+      "name": "ModifyLaunchTemplate",
+      "type": "control_plane",
+      "file": "pkg/resource/launch_template/hooks.go",
+      "line": 138
+    },
+    {
+      "name": "ModifySubnetAttribute",
+      "type": "control_plane",
+      "file": "pkg/resource/subnet/hooks.go",
+      "line": 117
+    },
+    {
+      "name": "ModifyTransitGateway",
+      "type": "control_plane",
+      "file": "pkg/resource/transit_gateway_vpc_attachment/sdk.go",
+      "line": 381
+    },
+    {
+      "name": "ModifyTransitGatewayVpcAttachment",
+      "type": "control_plane",
+      "file": "pkg/resource/transit_gateway_vpc_attachment/sdk.go",
+      "line": 381
+    },
+    {
+      "name": "ModifyVpcAttribute",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc/hooks.go",
+      "line": 74
+    },
+    {
+      "name": "ModifyVpcEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint/hooks.go",
+      "line": 89
+    },
+    {
+      "name": "ModifyVpcEndpointServiceConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint_service_configuration/sdk.go",
+      "line": 467
+    },
+    {
+      "name": "ModifyVpcEndpointServicePermissions",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_endpoint_service_configuration/hooks.go",
+      "line": 50
+    },
+    {
+      "name": "ModifyVpcPeeringConnectionOptions",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_peering_connection/sdk.go",
+      "line": 630
+    },
+    {
+      "name": "ReleaseAddress",
+      "type": "control_plane",
+      "file": "pkg/resource/elastic_ip_address/sdk.go",
+      "line": 315
+    },
+    {
+      "name": "ReplaceNetworkAclAssociation",
+      "type": "control_plane",
+      "file": "pkg/resource/network_acl/hooks.go",
+      "line": 204
+    },
+    {
+      "name": "ReplaceNetworkAclEntry",
+      "type": "control_plane",
+      "file": "pkg/resource/network_acl/hooks.go",
+      "line": 496
+    },
+    {
+      "name": "RevokeSecurityGroupEgress",
+      "type": "control_plane",
+      "file": "pkg/resource/security_group/hooks.go",
+      "line": 328
+    },
+    {
+      "name": "RevokeSecurityGroupIngress",
+      "type": "control_plane",
+      "file": "pkg/resource/security_group/hooks.go",
+      "line": 388
+    },
+    {
+      "name": "RunInstances",
+      "type": "control_plane",
+      "file": "pkg/resource/instance/hooks.go",
+      "line": 72
+    },
+    {
+      "name": "TerminateInstances",
+      "type": "control_plane",
+      "file": "pkg/resource/instance/hooks.go",
+      "line": 29
+    },
+    {
+      "name": "AcceptAddressTransfer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AcceptCapacityReservationBillingOwnership",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AcceptReservedInstancesExchangeQuote",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AcceptTransitGatewayMulticastDomainAssociations",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AcceptTransitGatewayPeeringAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AcceptTransitGatewayVpcAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AcceptVpcEndpointConnections",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AdvertiseByoipCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AllocateHosts",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AllocateIpamPoolCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ApplySecurityGroupsToClientVpnTargetNetwork",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssignIpv6Addresses",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssignPrivateIpAddresses",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssignPrivateNatGatewayAddress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateAddress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateCapacityReservationBillingOwner",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateClientVpnTargetNetwork",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateEnclaveCertificateIamRole",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateIamInstanceProfile",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateInstanceEventWindow",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateIpamByoasn",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateIpamResourceDiscovery",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateNatGatewayAddress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateRouteServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateSecurityGroupVpc",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateSubnetCidrBlock",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateTransitGatewayMulticastDomain",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateTransitGatewayPolicyTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateTransitGatewayRouteTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateTrunkInterface",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AttachClassicLinkVpc",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AttachNetworkInterface",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AttachVerifiedAccessTrustProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AttachVolume",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AttachVpnGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AuthorizeClientVpnIngress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BundleInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelBundleTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelCapacityReservationFleets",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelConversionTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelDeclarativePoliciesReport",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelExportTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelImageLaunchPermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelImportTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelReservedInstancesListing",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelSpotFleetRequests",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CancelSpotInstanceRequests",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ConfirmProductInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyFpgaImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopySnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCapacityReservationBySplitting",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCapacityReservationFleet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCarrierGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateClientVpnEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateClientVpnRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCoipCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCoipPool",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCustomerGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDefaultSubnet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDefaultVpc",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDelegateMacVolumeOwnershipTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateEgressOnlyInternetGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFleet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFpgaImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateInstanceConnectEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateInstanceEventWindow",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateInstanceExportTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateIpam",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateIpamExternalResourceVerificationToken",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateIpamPool",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateIpamResourceDiscovery",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateIpamScope",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateKeyPair",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateLocalGatewayRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateLocalGatewayRouteTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateLocalGatewayRouteTableVpcAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateLocalGatewayVirtualInterface",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateLocalGatewayVirtualInterfaceGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateMacSystemIntegrityProtectionModificationTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateManagedPrefixList",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateNetworkInsightsAccessScope",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateNetworkInsightsPath",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateNetworkInterface",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateNetworkInterfacePermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePlacementGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePublicIpv4Pool",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateReplaceRootVolumeTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateReservedInstancesListing",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRestoreImageTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRouteServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRouteServerEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRouteServerPeer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSnapshots",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSpotDatafeedSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateStoreImageTask",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSubnetCidrReservation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrafficMirrorFilter",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrafficMirrorFilterRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrafficMirrorSession",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrafficMirrorTarget",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayConnect",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayConnectPeer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayMulticastDomain",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayPeeringAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayPolicyTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayPrefixListReference",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayRouteTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTransitGatewayRouteTableAnnouncement",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVerifiedAccessEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVerifiedAccessGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVerifiedAccessInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVerifiedAccessTrustProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVolume",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpcBlockPublicAccessExclusion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpcEndpointConnectionNotification",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpnConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpnConnectionRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpnGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCarrierGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteClientVpnEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteClientVpnRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCoipCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCoipPool",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCustomerGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteEgressOnlyInternetGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFleets",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFpgaImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteInstanceConnectEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteInstanceEventWindow",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIpam",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIpamExternalResourceVerificationToken",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIpamPool",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIpamResourceDiscovery",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteIpamScope",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteKeyPair",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLaunchTemplateVersions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLocalGatewayRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLocalGatewayRouteTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLocalGatewayRouteTableVirtualInterfaceGroupAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLocalGatewayRouteTableVpcAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLocalGatewayVirtualInterface",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteLocalGatewayVirtualInterfaceGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteManagedPrefixList",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNetworkInsightsAccessScope",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNetworkInsightsAccessScopeAnalysis",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNetworkInsightsAnalysis",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNetworkInsightsPath",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNetworkInterface",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNetworkInterfacePermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePlacementGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePublicIpv4Pool",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteQueuedReservedInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRouteServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRouteServerEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRouteServerPeer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSpotDatafeedSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSubnetCidrReservation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrafficMirrorFilter",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrafficMirrorFilterRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrafficMirrorSession",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrafficMirrorTarget",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayConnect",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayConnectPeer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayMulticastDomain",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayPeeringAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayPolicyTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayPrefixListReference",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayRouteTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTransitGatewayRouteTableAnnouncement",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVerifiedAccessEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVerifiedAccessGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVerifiedAccessInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVerifiedAccessTrustProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVolume",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpcBlockPublicAccessExclusion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpcEndpointConnectionNotifications",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpnConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpnConnectionRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpnGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeprovisionByoipCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeprovisionIpamByoasn",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeprovisionIpamPoolCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeprovisionPublicIpv4PoolCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterInstanceEventNotificationAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterTransitGatewayMulticastGroupMembers",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterTransitGatewayMulticastGroupSources",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAccountAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAddressesAttribute",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAddressTransfers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAggregateIdFormat",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAvailabilityZones",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAwsNetworkPerformanceMetricSubscriptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeBundleTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeByoipCidrs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityBlockExtensionHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityBlockExtensionOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityBlockOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityBlocks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityBlockStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityReservationBillingRequests",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCapacityReservationFleets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCarrierGateways",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClassicLinkInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClientVpnAuthorizationRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClientVpnConnections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClientVpnEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClientVpnRoutes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClientVpnTargetNetworks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCoipPools",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeConversionTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCustomerGateways",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDeclarativePoliciesReports",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEgressOnlyInternetGateways",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeElasticGpus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeExportImageTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeExportTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFastLaunchImages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFastSnapshotRestores",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFleetHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFleetInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFleets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFpgaImageAttribute",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFpgaImages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeHostReservationOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeHostReservations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeHosts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIamInstanceProfileAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIdentityIdFormat",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIdFormat",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImageAttribute",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImportImageTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImportSnapshotTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceAttribute",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceConnectEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceCreditSpecifications",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceEventNotificationAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceEventWindows",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceImageMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceTopology",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceTypeOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInstanceTypes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIpamByoasn",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIpamExternalResourceVerificationTokens",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIpamPools",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIpamResourceDiscoveries",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIpamResourceDiscoveryAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIpams",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIpamScopes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeIpv6Pools",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeKeyPairs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLocalGatewayRouteTables",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLocalGatewayRouteTableVpcAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLocalGateways",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLocalGatewayVirtualInterfaceGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLocalGatewayVirtualInterfaces",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLockedSnapshots",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeMacHosts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeMacModificationTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeMovingAddresses",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeNetworkInsightsAccessScopeAnalyses",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeNetworkInsightsAccessScopes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeNetworkInsightsAnalyses",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeNetworkInsightsPaths",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeNetworkInterfaceAttribute",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeNetworkInterfacePermissions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeNetworkInterfaces",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeOutpostLags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePlacementGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePrefixLists",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePrincipalIdFormat",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePublicIpv4Pools",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRegions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReplaceRootVolumeTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedInstancesListings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedInstancesModifications",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReservedInstancesOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRouteServerEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRouteServerPeers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRouteServers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeScheduledInstanceAvailability",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeScheduledInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSecurityGroupReferences",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSecurityGroupVpcAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeServiceLinkVirtualInterfaces",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSnapshotAttribute",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSnapshots",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSnapshotTierStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSpotDatafeedSubscription",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSpotFleetInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSpotFleetRequestHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSpotFleetRequests",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSpotInstanceRequests",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSpotPriceHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeStaleSecurityGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeStoreImageTasks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrafficMirrorFilterRules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrafficMirrorFilters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrafficMirrorSessions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrafficMirrorTargets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTransitGatewayAttachments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTransitGatewayConnectPeers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTransitGatewayConnects",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTransitGatewayMulticastDomains",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTransitGatewayPeeringAttachments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTransitGatewayPolicyTables",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTransitGatewayRouteTableAnnouncements",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTransitGatewayRouteTables",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrunkInterfaceAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVerifiedAccessEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVerifiedAccessGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVerifiedAccessInstanceLoggingConfigurations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVerifiedAccessInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVerifiedAccessTrustProviders",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVolumeAttribute",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVolumes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVolumesModifications",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVolumeStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcBlockPublicAccessExclusions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcBlockPublicAccessOptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcClassicLink",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcClassicLinkDnsSupport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcEndpointAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcEndpointConnectionNotifications",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcEndpointConnections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcEndpointServices",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpnConnections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpnGateways",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DetachClassicLinkVpc",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DetachNetworkInterface",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DetachVerifiedAccessTrustProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DetachVolume",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DetachVpnGateway",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableAddressTransfer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableAllowedImagesSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableAwsNetworkPerformanceMetricSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableEbsEncryptionByDefault",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableFastLaunch",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableFastSnapshotRestores",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableImageBlockPublicAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableImageDeprecation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableImageDeregistrationProtection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableIpamOrganizationAdminAccount",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableRouteServerPropagation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableSerialConsoleAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableSnapshotBlockPublicAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableTransitGatewayRouteTablePropagation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableVgwRoutePropagation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableVpcClassicLink",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableVpcClassicLinkDnsSupport",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateAddress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateCapacityReservationBillingOwner",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateClientVpnTargetNetwork",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateEnclaveCertificateIamRole",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateIamInstanceProfile",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateInstanceEventWindow",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateIpamByoasn",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateIpamResourceDiscovery",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateNatGatewayAddress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateRouteServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateSecurityGroupVpc",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateSubnetCidrBlock",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateTransitGatewayMulticastDomain",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateTransitGatewayPolicyTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateTransitGatewayRouteTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateTrunkInterface",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableAddressTransfer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableAllowedImagesSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableAwsNetworkPerformanceMetricSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableEbsEncryptionByDefault",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableFastLaunch",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableFastSnapshotRestores",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableImageBlockPublicAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableImageDeprecation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableImageDeregistrationProtection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableIpamOrganizationAdminAccount",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableReachabilityAnalyzerOrganizationSharing",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableRouteServerPropagation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableSerialConsoleAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableSnapshotBlockPublicAccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableTransitGatewayRouteTablePropagation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableVgwRoutePropagation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableVolumeIO",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableVpcClassicLink",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableVpcClassicLinkDnsSupport",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportClientVpnClientCertificateRevocationList",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportClientVpnClientConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportImage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportTransitGatewayRoutes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportVerifiedAccessInstanceClientConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetActiveVpnTunnelStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAllowedImagesSettings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAssociatedEnclaveCertificateIamRoles",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAssociatedIpv6PoolCidrs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAwsNetworkPerformanceData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCapacityReservationUsage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCoipPoolUsage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetConsoleOutput",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetConsoleScreenshot",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDeclarativePoliciesReportSummary",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDefaultCreditSpecification",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetEbsDefaultKmsKeyId",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetEbsEncryptionByDefault",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFlowLogsIntegrationTemplate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetGroupsForCapacityReservation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetHostReservationPurchasePreview",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetImageBlockPublicAccessState",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetInstanceMetadataDefaults",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetInstanceTpmEkPub",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetInstanceTypesFromInstanceRequirements",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetInstanceUefiData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIpamAddressHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIpamDiscoveredAccounts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIpamDiscoveredPublicAddresses",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIpamDiscoveredResourceCidrs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIpamPoolAllocations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIpamPoolCidrs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetIpamResourceCidrs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetLaunchTemplateData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetManagedPrefixListAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetManagedPrefixListEntries",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetNetworkInsightsAccessScopeAnalysisFindings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetNetworkInsightsAccessScopeContent",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPasswordData",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetReservedInstancesExchangeQuote",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRouteServerAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRouteServerPropagations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRouteServerRoutingDatabase",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSecurityGroupsForVpc",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSerialConsoleAccessStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSnapshotBlockPublicAccessState",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSpotPlacementScores",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSubnetCidrReservations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTransitGatewayAttachmentPropagations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTransitGatewayMulticastDomainAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTransitGatewayPolicyTableAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTransitGatewayPolicyTableEntries",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTransitGatewayPrefixListReferences",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTransitGatewayRouteTableAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTransitGatewayRouteTablePropagations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetVerifiedAccessEndpointPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetVerifiedAccessEndpointTargets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetVerifiedAccessGroupPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetVpnConnectionDeviceSampleConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetVpnConnectionDeviceTypes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetVpnTunnelReplacementStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportClientVpnClientCertificateRevocationList",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportKeyPair",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportVolume",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListImagesInRecycleBin",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSnapshotsInRecycleBin",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "LockSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyAddressAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyAvailabilityZoneGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyCapacityReservationFleet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyClientVpnEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyDefaultCreditSpecification",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyEbsDefaultKmsKeyId",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyFleet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyFpgaImageAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyHosts",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIdentityIdFormat",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIdFormat",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyImageAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceCapacityReservationAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceCpuOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceCreditSpecification",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceEventStartTime",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceEventWindow",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceMaintenanceOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceMetadataDefaults",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceMetadataOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstanceNetworkPerformanceOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyInstancePlacement",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIpam",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIpamPool",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIpamResourceCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIpamResourceDiscovery",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyIpamScope",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyLocalGatewayRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyManagedPrefixList",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyNetworkInterfaceAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyPrivateDnsNameOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyPublicIpDnsNameOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyReservedInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyRouteServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifySecurityGroupRules",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifySnapshotAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifySnapshotTier",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifySpotFleetRequest",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyTrafficMirrorFilterNetworkServices",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyTrafficMirrorFilterRule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyTrafficMirrorSession",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyTransitGatewayPrefixListReference",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVerifiedAccessEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVerifiedAccessEndpointPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVerifiedAccessGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVerifiedAccessGroupPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVerifiedAccessInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVerifiedAccessInstanceLoggingConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVerifiedAccessTrustProvider",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVolume",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVolumeAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpcBlockPublicAccessExclusion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpcBlockPublicAccessOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpcEndpointConnectionNotification",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpcEndpointServicePayerResponsibility",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpcTenancy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpnConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpnConnectionOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpnTunnelCertificate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ModifyVpnTunnelOptions",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "MonitorInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "MoveAddressToVpc",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "MoveByoipCidrToIpam",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "MoveCapacityReservationInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ProvisionByoipCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ProvisionIpamByoasn",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ProvisionIpamPoolCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ProvisionPublicIpv4PoolCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseCapacityBlock",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseCapacityBlockExtension",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseHostReservation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseReservedInstancesOffering",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PurchaseScheduledInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RebootInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterInstanceEventNotificationAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterTransitGatewayMulticastGroupMembers",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterTransitGatewayMulticastGroupSources",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectCapacityReservationBillingOwnership",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectTransitGatewayMulticastDomainAssociations",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectTransitGatewayPeeringAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectTransitGatewayVpcAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectVpcEndpointConnections",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectVpcPeeringConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReleaseHosts",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReleaseIpamPoolAllocation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReplaceIamInstanceProfileAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReplaceImageCriteriaInAllowedImagesSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReplaceRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReplaceRouteTableAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReplaceTransitGatewayRoute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReplaceVpnTunnel",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReportInstanceStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RequestSpotFleet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RequestSpotInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetAddressAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetEbsDefaultKmsKeyId",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetFpgaImageAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetImageAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetInstanceAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetNetworkInterfaceAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ResetSnapshotAttribute",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreAddressToClassic",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreImageFromRecycleBin",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreManagedPrefixListVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreSnapshotFromRecycleBin",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreSnapshotTier",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RevokeClientVpnIngress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RunScheduledInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SearchLocalGatewayRoutes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SearchTransitGatewayMulticastGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SearchTransitGatewayRoutes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendDiagnosticInterrupt",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartDeclarativePoliciesReport",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartNetworkInsightsAccessScopeAnalysis",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartNetworkInsightsAnalysis",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartVpcEndpointServicePrivateDnsVerification",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TerminateClientVpnConnections",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UnassignIpv6Addresses",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UnassignPrivateIpAddresses",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UnassignPrivateNatGatewayAddress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UnlockSnapshot",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UnmonitorInstances",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateSecurityGroupRuleDescriptionsEgress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateSecurityGroupRuleDescriptionsIngress",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "WithdrawByoipCidr",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

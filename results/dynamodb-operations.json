@@ -1,0 +1,351 @@
+{
+  "service_name": "dynamodb",
+  "total_operations": 57,
+  "supported_operations": 19,
+  "control_plane_operations": 30,
+  "supported_control_plane_operations": 19,
+  "operations": [
+    {
+      "name": "CreateBackup",
+      "type": "control_plane",
+      "file": "pkg/resource/backup/sdk.go",
+      "line": 178
+    },
+    {
+      "name": "CreateGlobalTable",
+      "type": "control_plane",
+      "file": "pkg/resource/global_table/sdk.go",
+      "line": 174
+    },
+    {
+      "name": "CreateTable",
+      "type": "control_plane",
+      "file": "pkg/resource/table/sdk.go",
+      "line": 505
+    },
+    {
+      "name": "DeleteBackup",
+      "type": "control_plane",
+      "file": "pkg/resource/backup/sdk.go",
+      "line": 274
+    },
+    {
+      "name": "DeleteTable",
+      "type": "control_plane",
+      "file": "pkg/resource/table/sdk.go",
+      "line": 1045
+    },
+    {
+      "name": "DescribeBackup",
+      "type": "control_plane",
+      "file": "pkg/resource/backup/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeContinuousBackups",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks_continuous_backup.go",
+      "line": 62
+    },
+    {
+      "name": "DescribeContributorInsights",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks.go",
+      "line": 770
+    },
+    {
+      "name": "DescribeGlobalTable",
+      "type": "control_plane",
+      "file": "pkg/resource/global_table/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeTable",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks.go",
+      "line": 448
+    },
+    {
+      "name": "DescribeTimeToLive",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks_ttl.go",
+      "line": 74
+    },
+    {
+      "name": "ListTagsOfResource",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks_tags.go",
+      "line": 149
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks_tags.go",
+      "line": 60
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks_tags.go",
+      "line": 46
+    },
+    {
+      "name": "UpdateContinuousBackups",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks_continuous_backup.go",
+      "line": 41
+    },
+    {
+      "name": "UpdateContributorInsights",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks.go",
+      "line": 823
+    },
+    {
+      "name": "UpdateGlobalTable",
+      "type": "control_plane",
+      "file": "pkg/resource/global_table/custom_api.go",
+      "line": 21
+    },
+    {
+      "name": "UpdateTable",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks.go",
+      "line": 149
+    },
+    {
+      "name": "UpdateTimeToLive",
+      "type": "control_plane",
+      "file": "pkg/resource/table/hooks_ttl.go",
+      "line": 43
+    },
+    {
+      "name": "BatchExecuteStatement",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchGetItem",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchWriteItem",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteItem",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeExport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeGlobalTableSettings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeKinesisStreamingDestination",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLimits",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTableReplicaAutoScaling",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableKinesisStreamingDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableKinesisStreamingDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExecuteStatement",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExecuteTransaction",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ExportTableToPointInTime",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetItem",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResourcePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportTable",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListBackups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListContributorInsights",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListExports",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListGlobalTables",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListImports",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTables",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutItem",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "Query",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreTableFromBackup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RestoreTableToPointInTime",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "Scan",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TransactGetItems",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TransactWriteItems",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateGlobalTableSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateItem",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateKinesisStreamingDestination",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTableReplicaAutoScaling",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

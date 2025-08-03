@@ -1,0 +1,219 @@
+{
+  "service_name": "kinesis",
+  "total_operations": 35,
+  "supported_operations": 10,
+  "control_plane_operations": 23,
+  "supported_control_plane_operations": 10,
+  "operations": [
+    {
+      "name": "AddTagsToStream",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 29
+    },
+    {
+      "name": "CreateStream",
+      "type": "control_plane",
+      "file": "pkg/resource/stream/sdk.go",
+      "line": 231
+    },
+    {
+      "name": "DeleteStream",
+      "type": "control_plane",
+      "file": "pkg/resource/stream/sdk.go",
+      "line": 390
+    },
+    {
+      "name": "DescribeStream",
+      "type": "control_plane",
+      "file": "pkg/resource/stream/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeStreamSummary",
+      "type": "control_plane",
+      "file": "pkg/resource/stream/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "ListTagsForStream",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 30
+    },
+    {
+      "name": "RemoveTagsFromStream",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 31
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 58
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 58
+    },
+    {
+      "name": "UpdateShardCount",
+      "type": "control_plane",
+      "file": "pkg/resource/stream/sdk.go",
+      "line": 310
+    },
+    {
+      "name": "DecreaseStreamRetentionPeriod",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterStreamConsumer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLimits",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeStreamConsumer",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableEnhancedMonitoring",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableEnhancedMonitoring",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRecords",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResourcePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetShardIterator",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "IncreaseStreamRetentionPeriod",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListShards",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListStreamConsumers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListStreams",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "MergeShards",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRecord",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRecords",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterStreamConsumer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SplitShard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartStreamEncryption",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopStreamEncryption",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SubscribeToShard",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateStreamMode",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

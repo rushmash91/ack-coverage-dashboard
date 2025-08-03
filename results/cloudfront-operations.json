@@ -1,0 +1,891 @@
+{
+  "service_name": "cloudfront",
+  "total_operations": 147,
+  "supported_operations": 32,
+  "control_plane_operations": 83,
+  "supported_control_plane_operations": 32,
+  "operations": [
+    {
+      "name": "CreateCachePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_policy/sdk.go",
+      "line": 232
+    },
+    {
+      "name": "CreateDistribution",
+      "type": "control_plane",
+      "file": "pkg/resource/distribution/sdk.go",
+      "line": 895
+    },
+    {
+      "name": "CreateFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/function/sdk.go",
+      "line": 201
+    },
+    {
+      "name": "CreateOriginAccessControl",
+      "type": "control_plane",
+      "file": "pkg/resource/origin_access_control/sdk.go",
+      "line": 172
+    },
+    {
+      "name": "CreateOriginRequestPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/origin_request_policy/sdk.go",
+      "line": 212
+    },
+    {
+      "name": "CreateResponseHeadersPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/response_headers_policy/sdk.go",
+      "line": 339
+    },
+    {
+      "name": "CreateVpcOrigin",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_origin/hooks.go",
+      "line": 37
+    },
+    {
+      "name": "DeleteCachePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_policy/sdk.go",
+      "line": 583
+    },
+    {
+      "name": "DeleteDistribution",
+      "type": "control_plane",
+      "file": "pkg/resource/distribution/sdk.go",
+      "line": 3103
+    },
+    {
+      "name": "DeleteFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/function/sdk.go",
+      "line": 416
+    },
+    {
+      "name": "DeleteOriginAccessControl",
+      "type": "control_plane",
+      "file": "pkg/resource/origin_access_control/sdk.go",
+      "line": 360
+    },
+    {
+      "name": "DeleteOriginRequestPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/origin_request_policy/sdk.go",
+      "line": 506
+    },
+    {
+      "name": "DeleteResponseHeadersPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/response_headers_policy/sdk.go",
+      "line": 1027
+    },
+    {
+      "name": "DeleteVpcOrigin",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_origin/sdk.go",
+      "line": 570
+    },
+    {
+      "name": "DescribeFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/function/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetCachePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_policy/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetDistribution",
+      "type": "control_plane",
+      "file": "pkg/resource/distribution/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "GetFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/function/hooks.go",
+      "line": 46
+    },
+    {
+      "name": "GetOriginAccessControl",
+      "type": "control_plane",
+      "file": "pkg/resource/origin_access_control/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetOriginRequestPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/origin_request_policy/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetResponseHeadersPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/response_headers_policy/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "GetVpcOrigin",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_origin/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 33
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 32
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/tags/sync.go",
+      "line": 34
+    },
+    {
+      "name": "UpdateCachePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/cache_policy/sdk.go",
+      "line": 447
+    },
+    {
+      "name": "UpdateDistribution",
+      "type": "control_plane",
+      "file": "pkg/resource/distribution/sdk.go",
+      "line": 2367
+    },
+    {
+      "name": "UpdateFunction",
+      "type": "control_plane",
+      "file": "pkg/resource/function/sdk.go",
+      "line": 311
+    },
+    {
+      "name": "UpdateOriginAccessControl",
+      "type": "control_plane",
+      "file": "pkg/resource/origin_access_control/sdk.go",
+      "line": 276
+    },
+    {
+      "name": "UpdateOriginRequestPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/origin_request_policy/sdk.go",
+      "line": 389
+    },
+    {
+      "name": "UpdateResponseHeadersPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/response_headers_policy/sdk.go",
+      "line": 776
+    },
+    {
+      "name": "UpdateVpcOrigin",
+      "type": "control_plane",
+      "file": "pkg/resource/vpc_origin/sdk.go",
+      "line": 405
+    },
+    {
+      "name": "AssociateAlias",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateDistributionTenantWebACL",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateDistributionWebACL",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyDistribution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAnycastIpList",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCloudFrontOriginAccessIdentity",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateConnectionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateContinuousDeploymentPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDistributionTenant",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDistributionWithTags",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFieldLevelEncryptionConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFieldLevelEncryptionProfile",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateInvalidation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateInvalidationForDistributionTenant",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateKeyGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateKeyValueStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateMonitoringSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePublicKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRealtimeLogConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateStreamingDistribution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateStreamingDistributionWithTags",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAnycastIpList",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCloudFrontOriginAccessIdentity",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteConnectionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteContinuousDeploymentPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDistributionTenant",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFieldLevelEncryptionConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFieldLevelEncryptionProfile",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteKeyGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteKeyValueStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteMonitoringSubscription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePublicKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRealtimeLogConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteStreamingDistribution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeKeyValueStore",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateDistributionTenantWebACL",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateDistributionWebACL",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAnycastIpList",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCachePolicyConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCloudFrontOriginAccessIdentity",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCloudFrontOriginAccessIdentityConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetConnectionGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetConnectionGroupByRoutingEndpoint",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetContinuousDeploymentPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetContinuousDeploymentPolicyConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDistributionConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDistributionTenant",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDistributionTenantByDomain",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFieldLevelEncryption",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFieldLevelEncryptionConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFieldLevelEncryptionProfile",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetFieldLevelEncryptionProfileConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetInvalidation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetInvalidationForDistributionTenant",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetKeyGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetKeyGroupConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetManagedCertificateDetails",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetMonitoringSubscription",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetOriginAccessControlConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetOriginRequestPolicyConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPublicKey",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPublicKeyConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRealtimeLogConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResponseHeadersPolicyConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetStreamingDistribution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetStreamingDistributionConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAnycastIpLists",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCachePolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCloudFrontOriginAccessIdentities",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListConflictingAliases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListConnectionGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListContinuousDeploymentPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByAnycastIpListId",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByCachePolicyId",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByConnectionMode",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByKeyGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByOriginRequestPolicyId",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByRealtimeLogConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByResponseHeadersPolicyId",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByVpcOriginId",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionsByWebACLId",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionTenants",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDistributionTenantsByCustomization",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDomainConflicts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFieldLevelEncryptionConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFieldLevelEncryptionProfiles",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFunctions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInvalidations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInvalidationsForDistributionTenant",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKeyGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListKeyValueStores",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListOriginAccessControls",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListOriginRequestPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPublicKeys",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRealtimeLogConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResponseHeadersPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListStreamingDistributions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVpcOrigins",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PublishFunction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TestFunction",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateCloudFrontOriginAccessIdentity",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateConnectionGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateContinuousDeploymentPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDistributionTenant",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDistributionWithStagingConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDomainAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFieldLevelEncryptionConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFieldLevelEncryptionProfile",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateKeyGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateKeyValueStore",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePublicKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateRealtimeLogConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateStreamingDistribution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifyDnsConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

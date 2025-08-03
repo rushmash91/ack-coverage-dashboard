@@ -1,0 +1,261 @@
+{
+  "service_name": "sns",
+  "total_operations": 42,
+  "supported_operations": 18,
+  "control_plane_operations": 26,
+  "supported_control_plane_operations": 18,
+  "operations": [
+    {
+      "name": "CreatePlatformApplication",
+      "type": "control_plane",
+      "file": "pkg/resource/platform_application/sdk.go",
+      "line": 193
+    },
+    {
+      "name": "CreatePlatformEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/platform_endpoint/sdk.go",
+      "line": 155
+    },
+    {
+      "name": "CreateTopic",
+      "type": "control_plane",
+      "file": "pkg/resource/topic/sdk.go",
+      "line": 246
+    },
+    {
+      "name": "DeletePlatformApplication",
+      "type": "control_plane",
+      "file": "pkg/resource/platform_application/sdk.go",
+      "line": 385
+    },
+    {
+      "name": "DeleteTopic",
+      "type": "control_plane",
+      "file": "pkg/resource/topic/sdk.go",
+      "line": 460
+    },
+    {
+      "name": "GetEndpointAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/platform_endpoint/sdk.go",
+      "line": 76
+    },
+    {
+      "name": "GetPlatformApplicationAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/platform_application/sdk.go",
+      "line": 76
+    },
+    {
+      "name": "GetSubscriptionAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/subscription/sdk.go",
+      "line": 76
+    },
+    {
+      "name": "GetTopicAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/topic/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/topic/hooks.go",
+      "line": 200
+    },
+    {
+      "name": "SetEndpointAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/platform_endpoint/sdk.go",
+      "line": 240
+    },
+    {
+      "name": "SetPlatformApplicationAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/platform_application/sdk.go",
+      "line": 295
+    },
+    {
+      "name": "SetSubscriptionAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/subscription/hooks.go",
+      "line": 45
+    },
+    {
+      "name": "SetTopicAttributes",
+      "type": "control_plane",
+      "file": "pkg/resource/topic/hooks.go",
+      "line": 53
+    },
+    {
+      "name": "Subscribe",
+      "type": "control_plane",
+      "file": "pkg/resource/subscription/sdk.go",
+      "line": 211
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/topic/hooks.go",
+      "line": 200
+    },
+    {
+      "name": "Unsubscribe",
+      "type": "control_plane",
+      "file": "pkg/resource/subscription/sdk.go",
+      "line": 302
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/topic/hooks.go",
+      "line": 200
+    },
+    {
+      "name": "AddPermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CheckIfPhoneNumberIsOptedOut",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ConfirmSubscription",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSMSSandboxPhoneNumber",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSMSSandboxPhoneNumber",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDataProtectionPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSMSAttributes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSMSSandboxAccountStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEndpointsByPlatformApplication",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListOriginationNumbers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPhoneNumbersOptedOut",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPlatformApplications",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSMSSandboxPhoneNumbers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSubscriptions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSubscriptionsByTopic",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTopics",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "OptInPhoneNumber",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "Publish",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PublishBatch",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutDataProtectionPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RemovePermission",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SetSMSAttributes",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "VerifySMSSandboxPhoneNumber",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

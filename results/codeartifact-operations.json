@@ -1,0 +1,297 @@
+{
+  "service_name": "codeartifact",
+  "total_operations": 48,
+  "supported_operations": 13,
+  "control_plane_operations": 24,
+  "supported_control_plane_operations": 13,
+  "operations": [
+    {
+      "name": "CreateDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/sdk.go",
+      "line": 182
+    },
+    {
+      "name": "CreatePackageGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/package_group/sdk.go",
+      "line": 230
+    },
+    {
+      "name": "DeleteDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/sdk.go",
+      "line": 295
+    },
+    {
+      "name": "DeletePackage",
+      "type": "control_plane",
+      "file": "pkg/resource/package_group/sdk.go",
+      "line": 537
+    },
+    {
+      "name": "DeletePackageGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/package_group/sdk.go",
+      "line": 537
+    },
+    {
+      "name": "DescribeDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribePackage",
+      "type": "control_plane",
+      "file": "pkg/resource/package_group/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribePackageGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/package_group/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/hooks.go",
+      "line": 188
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/hooks.go",
+      "line": 92
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/hooks.go",
+      "line": 80
+    },
+    {
+      "name": "UpdatePackageGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/package_group/sdk.go",
+      "line": 397
+    },
+    {
+      "name": "UpdateRepository",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/hooks.go",
+      "line": 37
+    },
+    {
+      "name": "AssociateExternalConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CopyPackageVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRepository",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDomainPermissionsPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePackageVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRepository",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRepositoryPermissionsPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePackageVersion",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRepository",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateExternalConnection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisposePackageVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAssociatedPackageGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAuthorizationToken",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDomainPermissionsPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPackageVersionAsset",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPackageVersionReadme",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRepositoryEndpoint",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRepositoryPermissionsPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAllowedRepositoriesForGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAssociatedPackages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDomains",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPackageGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPackages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPackageVersionAssets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPackageVersionDependencies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPackageVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRepositories",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRepositoriesInDomain",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSubPackageGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PublishPackageVersion",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutDomainPermissionsPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutPackageOriginConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRepositoryPermissionsPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePackageGroupOriginConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePackageVersionsStatus",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

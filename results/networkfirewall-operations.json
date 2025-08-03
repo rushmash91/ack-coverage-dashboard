@@ -1,0 +1,351 @@
+{
+  "service_name": "networkfirewall",
+  "total_operations": 57,
+  "supported_operations": 14,
+  "control_plane_operations": 40,
+  "supported_control_plane_operations": 14,
+  "operations": [
+    {
+      "name": "AssociateFirewallPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall/hooks.go",
+      "line": 117
+    },
+    {
+      "name": "CreateFirewall",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall/sdk.go",
+      "line": 311
+    },
+    {
+      "name": "CreateFirewallPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall_policy/sdk.go",
+      "line": 317
+    },
+    {
+      "name": "CreateRuleGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_group/sdk.go",
+      "line": 512
+    },
+    {
+      "name": "DeleteFirewall",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall/sdk.go",
+      "line": 572
+    },
+    {
+      "name": "DeleteFirewallPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall_policy/sdk.go",
+      "line": 820
+    },
+    {
+      "name": "DeleteRuleGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_group/sdk.go",
+      "line": 1493
+    },
+    {
+      "name": "DescribeFirewall",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeFirewallPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall_policy/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeLoggingConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall/hooks.go",
+      "line": 145
+    },
+    {
+      "name": "DescribeRuleGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_group/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "UpdateFirewallPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall_policy/sdk.go",
+      "line": 574
+    },
+    {
+      "name": "UpdateLoggingConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/firewall/hooks.go",
+      "line": 268
+    },
+    {
+      "name": "UpdateRuleGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/rule_group/sdk.go",
+      "line": 1012
+    },
+    {
+      "name": "AcceptNetworkFirewallTransitGatewayAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateAvailabilityZones",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateSubnets",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTLSInspectionConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVpcEndpointAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteNetworkFirewallTransitGatewayAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTLSInspectionConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVpcEndpointAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFirewallMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFlowOperation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeResourcePolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRuleGroupMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRuleGroupSummary",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTLSInspectionConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeVpcEndpointAssociation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateAvailabilityZones",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateSubnets",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAnalysisReportResults",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAnalysisReports",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFirewallPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFirewalls",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFlowOperationResults",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFlowOperations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListRuleGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTLSInspectionConfigurations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVpcEndpointAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutResourcePolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectNetworkFirewallTransitGatewayAttachment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartAnalysisReport",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartFlowCapture",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartFlowFlush",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAvailabilityZoneChangeProtection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallAnalysisSettings",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallDeleteProtection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallDescription",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallEncryptionConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFirewallPolicyChangeProtection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateSubnetChangeProtection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTLSInspectionConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

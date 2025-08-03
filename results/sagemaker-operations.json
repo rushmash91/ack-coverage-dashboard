@@ -1,0 +1,2181 @@
+{
+  "service_name": "sagemaker",
+  "total_operations": 362,
+  "supported_operations": 85,
+  "control_plane_operations": 225,
+  "supported_control_plane_operations": 85,
+  "operations": [
+    {
+      "name": "CreateApp",
+      "type": "control_plane",
+      "file": "pkg/resource/app/sdk.go",
+      "line": 202
+    },
+    {
+      "name": "CreateDataQualityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/data_quality_job_definition/sdk.go",
+      "line": 333
+    },
+    {
+      "name": "CreateDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/sdk.go",
+      "line": 506
+    },
+    {
+      "name": "CreateEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint/sdk.go",
+      "line": 528
+    },
+    {
+      "name": "CreateEndpointConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint_config/sdk.go",
+      "line": 358
+    },
+    {
+      "name": "CreateFeatureGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/feature_group/sdk.go",
+      "line": 300
+    },
+    {
+      "name": "CreateHyperParameterTuningJob",
+      "type": "control_plane",
+      "file": "pkg/resource/hyper_parameter_tuning_job/sdk.go",
+      "line": 1014
+    },
+    {
+      "name": "CreateInferenceComponent",
+      "type": "control_plane",
+      "file": "pkg/resource/inference_component/sdk.go",
+      "line": 247
+    },
+    {
+      "name": "CreateLabelingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/labeling_job/sdk.go",
+      "line": 406
+    },
+    {
+      "name": "CreateModel",
+      "type": "control_plane",
+      "file": "pkg/resource/model/sdk.go",
+      "line": 330
+    },
+    {
+      "name": "CreateModelBiasJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_bias_job_definition/sdk.go",
+      "line": 324
+    },
+    {
+      "name": "CreateModelExplainabilityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_explainability_job_definition/sdk.go",
+      "line": 317
+    },
+    {
+      "name": "CreateModelPackage",
+      "type": "control_plane",
+      "file": "pkg/resource/model_package/sdk.go",
+      "line": 844
+    },
+    {
+      "name": "CreateModelPackageGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/model_package_group/sdk.go",
+      "line": 162
+    },
+    {
+      "name": "CreateModelQualityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_quality_job_definition/sdk.go",
+      "line": 336
+    },
+    {
+      "name": "CreateMonitoringSchedule",
+      "type": "control_plane",
+      "file": "pkg/resource/monitoring_schedule/sdk.go",
+      "line": 407
+    },
+    {
+      "name": "CreateNotebookInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance/sdk.go",
+      "line": 245
+    },
+    {
+      "name": "CreateNotebookInstanceLifecycleConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance_lifecycle_config/sdk.go",
+      "line": 187
+    },
+    {
+      "name": "CreatePipeline",
+      "type": "control_plane",
+      "file": "pkg/resource/pipeline/sdk.go",
+      "line": 197
+    },
+    {
+      "name": "CreateProcessingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/processing_job/sdk.go",
+      "line": 412
+    },
+    {
+      "name": "CreateTrainingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/training_job/sdk.go",
+      "line": 653
+    },
+    {
+      "name": "CreateTransformJob",
+      "type": "control_plane",
+      "file": "pkg/resource/transform_job/sdk.go",
+      "line": 297
+    },
+    {
+      "name": "CreateUserProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/user_profile/sdk.go",
+      "line": 428
+    },
+    {
+      "name": "DeleteApp",
+      "type": "control_plane",
+      "file": "pkg/resource/app/sdk.go",
+      "line": 316
+    },
+    {
+      "name": "DeleteDataQualityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/data_quality_job_definition/sdk.go",
+      "line": 587
+    },
+    {
+      "name": "DeleteDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/sdk.go",
+      "line": 1255
+    },
+    {
+      "name": "DeleteEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint/sdk.go",
+      "line": 939
+    },
+    {
+      "name": "DeleteEndpointConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint_config/sdk.go",
+      "line": 675
+    },
+    {
+      "name": "DeleteFeatureGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/feature_group/sdk.go",
+      "line": 519
+    },
+    {
+      "name": "DeleteInferenceComponent",
+      "type": "control_plane",
+      "file": "pkg/resource/inference_component/sdk.go",
+      "line": 567
+    },
+    {
+      "name": "DeleteModel",
+      "type": "control_plane",
+      "file": "pkg/resource/model/sdk.go",
+      "line": 574
+    },
+    {
+      "name": "DeleteModelBiasJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_bias_job_definition/sdk.go",
+      "line": 569
+    },
+    {
+      "name": "DeleteModelExplainabilityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_explainability_job_definition/sdk.go",
+      "line": 555
+    },
+    {
+      "name": "DeleteModelPackage",
+      "type": "control_plane",
+      "file": "pkg/resource/model_package/sdk.go",
+      "line": 1602
+    },
+    {
+      "name": "DeleteModelPackageGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/model_package_group/sdk.go",
+      "line": 246
+    },
+    {
+      "name": "DeleteModelQualityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_quality_job_definition/sdk.go",
+      "line": 593
+    },
+    {
+      "name": "DeleteMonitoringSchedule",
+      "type": "control_plane",
+      "file": "pkg/resource/monitoring_schedule/sdk.go",
+      "line": 954
+    },
+    {
+      "name": "DeleteNotebookInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance/sdk.go",
+      "line": 477
+    },
+    {
+      "name": "DeleteNotebookInstanceLifecycleConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance_lifecycle_config/sdk.go",
+      "line": 334
+    },
+    {
+      "name": "DeletePipeline",
+      "type": "control_plane",
+      "file": "pkg/resource/pipeline/sdk.go",
+      "line": 368
+    },
+    {
+      "name": "DeleteUserProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/user_profile/sdk.go",
+      "line": 1104
+    },
+    {
+      "name": "DescribeApp",
+      "type": "control_plane",
+      "file": "pkg/resource/app/hook.go",
+      "line": 49
+    },
+    {
+      "name": "DescribeDataQualityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/data_quality_job_definition/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/hook.go",
+      "line": 50
+    },
+    {
+      "name": "DescribeEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint/hooks.go",
+      "line": 52
+    },
+    {
+      "name": "DescribeEndpointConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint_config/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeFeatureGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/feature_group/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeHyperParameterTuningJob",
+      "type": "control_plane",
+      "file": "pkg/resource/hyper_parameter_tuning_job/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeInferenceComponent",
+      "type": "control_plane",
+      "file": "pkg/resource/inference_component/hooks.go",
+      "line": 49
+    },
+    {
+      "name": "DescribeLabelingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/labeling_job/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeModel",
+      "type": "control_plane",
+      "file": "pkg/resource/model/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeModelBiasJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_bias_job_definition/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeModelExplainabilityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_explainability_job_definition/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeModelPackage",
+      "type": "control_plane",
+      "file": "pkg/resource/model_package/sdk.go",
+      "line": 88
+    },
+    {
+      "name": "DescribeModelPackageGroup",
+      "type": "control_plane",
+      "file": "pkg/resource/model_package_group/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeModelQualityJobDefinition",
+      "type": "control_plane",
+      "file": "pkg/resource/model_quality_job_definition/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeMonitoringSchedule",
+      "type": "control_plane",
+      "file": "pkg/resource/monitoring_schedule/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeNotebookInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeNotebookInstanceLifecycleConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance_lifecycle_config/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribePipeline",
+      "type": "control_plane",
+      "file": "pkg/resource/pipeline/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribePipelineExecution",
+      "type": "control_plane",
+      "file": "pkg/resource/pipeline_execution/hooks.go",
+      "line": 47
+    },
+    {
+      "name": "DescribeProcessingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/processing_job/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeTrainingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/training_job/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeTransformJob",
+      "type": "control_plane",
+      "file": "pkg/resource/transform_job/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeUserProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/user_profile/hook.go",
+      "line": 50
+    },
+    {
+      "name": "StartNotebookInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance/custom_sdk_api.go",
+      "line": 26
+    },
+    {
+      "name": "StartPipelineExecution",
+      "type": "control_plane",
+      "file": "pkg/resource/pipeline_execution/sdk.go",
+      "line": 209
+    },
+    {
+      "name": "StopHyperParameterTuningJob",
+      "type": "control_plane",
+      "file": "pkg/resource/hyper_parameter_tuning_job/sdk.go",
+      "line": 1904
+    },
+    {
+      "name": "StopLabelingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/labeling_job/sdk.go",
+      "line": 689
+    },
+    {
+      "name": "StopNotebookInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance/custom_sdk_api.go",
+      "line": 14
+    },
+    {
+      "name": "StopPipelineExecution",
+      "type": "control_plane",
+      "file": "pkg/resource/pipeline_execution/sdk.go",
+      "line": 389
+    },
+    {
+      "name": "StopProcessingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/processing_job/sdk.go",
+      "line": 734
+    },
+    {
+      "name": "StopTrainingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/training_job/sdk.go",
+      "line": 1279
+    },
+    {
+      "name": "StopTransformJob",
+      "type": "control_plane",
+      "file": "pkg/resource/transform_job/sdk.go",
+      "line": 518
+    },
+    {
+      "name": "UpdateDomain",
+      "type": "control_plane",
+      "file": "pkg/resource/domain/sdk.go",
+      "line": 926
+    },
+    {
+      "name": "UpdateEndpoint",
+      "type": "control_plane",
+      "file": "pkg/resource/endpoint/hooks.go",
+      "line": 58
+    },
+    {
+      "name": "UpdateInferenceComponent",
+      "type": "control_plane",
+      "file": "pkg/resource/inference_component/hooks.go",
+      "line": 56
+    },
+    {
+      "name": "UpdateModelPackage",
+      "type": "control_plane",
+      "file": "pkg/resource/model_package/sdk.go",
+      "line": 1523
+    },
+    {
+      "name": "UpdateMonitoringSchedule",
+      "type": "control_plane",
+      "file": "pkg/resource/monitoring_schedule/sdk.go",
+      "line": 688
+    },
+    {
+      "name": "UpdateNotebookInstance",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance/custom_set_input_update.go",
+      "line": 15
+    },
+    {
+      "name": "UpdateNotebookInstanceLifecycleConfig",
+      "type": "control_plane",
+      "file": "pkg/resource/notebook_instance_lifecycle_config/sdk.go",
+      "line": 265
+    },
+    {
+      "name": "UpdatePipeline",
+      "type": "control_plane",
+      "file": "pkg/resource/pipeline/sdk.go",
+      "line": 291
+    },
+    {
+      "name": "UpdatePipelineExecution",
+      "type": "control_plane",
+      "file": "pkg/resource/pipeline_execution/sdk.go",
+      "line": 315
+    },
+    {
+      "name": "UpdateTrainingJob",
+      "type": "control_plane",
+      "file": "pkg/resource/training_job/custom_update.go",
+      "line": 40
+    },
+    {
+      "name": "UpdateUserProfile",
+      "type": "control_plane",
+      "file": "pkg/resource/user_profile/sdk.go",
+      "line": 777
+    },
+    {
+      "name": "AddAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AddTags",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateTrialComponent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchDeleteClusterNodes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchDescribeModelPackage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAlgorithm",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAppImageConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateArtifact",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAutoMLJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateAutoMLJobV2",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateClusterSchedulerConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCodeRepository",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCompilationJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateComputeQuota",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateContext",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateDeviceFleet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateEdgeDeploymentPlan",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateEdgeDeploymentStage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateEdgePackagingJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateExperiment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateFlowDefinition",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateHub",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateHubContentPresignedUrls",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateHubContentReference",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateHumanTaskUi",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateImageVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateInferenceExperiment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateInferenceRecommendationsJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateMlflowTrackingServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateModelCard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateModelCardExportJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateOptimizationJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePartnerApp",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePartnerAppPresignedUrl",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePresignedDomainUrl",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePresignedMlflowTrackingServerUrl",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreatePresignedNotebookInstanceUrl",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateProject",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSpace",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateStudioLifecycleConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrainingPlan",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrial",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrialComponent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateWorkforce",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateWorkteam",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAlgorithm",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAppImageConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteArtifact",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteAssociation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteClusterSchedulerConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCodeRepository",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCompilationJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteComputeQuota",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteContext",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteDeviceFleet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteEdgeDeploymentPlan",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteEdgeDeploymentStage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteExperiment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteFlowDefinition",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteHub",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteHubContent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteHubContentReference",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteHumanTaskUi",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteHyperParameterTuningJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteImageVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteInferenceExperiment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteMlflowTrackingServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteModelCard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteModelPackageGroupPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteOptimizationJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeletePartnerApp",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteProject",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteSpace",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteStudioLifecycleConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTags",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrial",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrialComponent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteWorkforce",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteWorkteam",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeregisterDevices",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAction",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAlgorithm",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAppImageConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeArtifact",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAutoMLJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAutoMLJobV2",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCluster",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClusterNode",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeClusterSchedulerConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCodeRepository",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeCompilationJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeComputeQuota",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeContext",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDevice",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeDeviceFleet",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEdgeDeploymentPlan",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeEdgePackagingJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeExperiment",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFeatureMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeFlowDefinition",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeHub",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeHubContent",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeHumanTaskUi",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImageVersion",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInferenceExperiment",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeInferenceRecommendationsJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeLineageGroup",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeMlflowTrackingServer",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeModelCard",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeModelCardExportJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeOptimizationJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePartnerApp",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribePipelineDefinitionForExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeProject",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSpace",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeStudioLifecycleConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSubscribedWorkteam",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrainingPlan",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrial",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTrialComponent",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeWorkforce",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeWorkteam",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableSagemakerServicecatalogPortfolio",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateTrialComponent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableSagemakerServicecatalogPortfolio",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDeviceFleetReport",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetLineageGroupPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetModelPackageGroupPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSagemakerServicecatalogPortfolioStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetScalingConfigurationRecommendation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetSearchSuggestions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ImportHubContent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListActions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAlgorithms",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAliases",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAppImageConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListApps",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListArtifacts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListAutoMLJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCandidatesForAutoMLJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClusterNodes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClusters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListClusterSchedulerConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCodeRepositories",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCompilationJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListComputeQuotas",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListContexts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDataQualityJobDefinitions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDeviceFleets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDevices",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListDomains",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEdgeDeploymentPlans",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEdgePackagingJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEndpointConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListExperiments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFeatureGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListFlowDefinitions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHubContents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHubContentVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHubs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHumanTaskUis",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHyperParameterTuningJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListImages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListImageVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInferenceComponents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInferenceExperiments",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInferenceRecommendationsJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListInferenceRecommendationsJobSteps",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListLabelingJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListLabelingJobsForWorkteam",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListLineageGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMlflowTrackingServers",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelBiasJobDefinitions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelCardExportJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelCards",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelCardVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelExplainabilityJobDefinitions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelMetadata",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelPackageGroups",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelPackages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModelQualityJobDefinitions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListModels",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMonitoringAlertHistory",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMonitoringAlerts",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMonitoringExecutions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListMonitoringSchedules",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListNotebookInstanceLifecycleConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListNotebookInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListOptimizationJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPartnerApps",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPipelineExecutions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPipelineExecutionSteps",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPipelineParametersForExecution",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPipelines",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPipelineVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListProcessingJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListProjects",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResourceCatalogs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSpaces",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListStageDevices",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListStudioLifecycleConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSubscribedWorkteams",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrainingJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrainingJobsForHyperParameterTuningJob",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrainingPlans",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTransformJobs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrialComponents",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrials",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListUserProfiles",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListWorkforces",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListWorkteams",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutModelPackageGroupPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "QueryLineage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RegisterDevices",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RenderUiTemplate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RetryPipelineExecution",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "Search",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SearchTrainingPlanOfferings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendPipelineExecutionStepFailure",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "SendPipelineExecutionStepSuccess",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartEdgeDeploymentStage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartInferenceExperiment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartMlflowTrackingServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartMonitoringSchedule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartSession",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopAutoMLJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopCompilationJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopEdgeDeploymentStage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopEdgePackagingJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopInferenceExperiment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopInferenceRecommendationsJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopMlflowTrackingServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopMonitoringSchedule",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StopOptimizationJob",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateAppImageConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateArtifact",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateCluster",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateClusterSchedulerConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateClusterSoftware",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateCodeRepository",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateComputeQuota",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateContext",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDeviceFleet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateDevices",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateEndpointWeightsAndCapacities",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateExperiment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFeatureGroup",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateFeatureMetadata",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateHub",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateHubContent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateHubContentReference",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateImage",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateImageVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateInferenceComponentRuntimeConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateInferenceExperiment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateMlflowTrackingServer",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateModelCard",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateMonitoringAlert",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePartnerApp",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdatePipelineVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateProject",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateSpace",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTrial",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTrialComponent",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateWorkforce",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateWorkteam",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

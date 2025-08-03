@@ -1,0 +1,147 @@
+{
+  "service_name": "emrcontainers",
+  "total_operations": 23,
+  "supported_operations": 6,
+  "control_plane_operations": 13,
+  "supported_control_plane_operations": 6,
+  "operations": [
+    {
+      "name": "CancelJobRun",
+      "type": "control_plane",
+      "file": "pkg/resource/job_run/sdk.go",
+      "line": 324
+    },
+    {
+      "name": "CreateVirtualCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/virtual_cluster/sdk.go",
+      "line": 208
+    },
+    {
+      "name": "DeleteVirtualCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/virtual_cluster/sdk.go",
+      "line": 310
+    },
+    {
+      "name": "DescribeJobRun",
+      "type": "control_plane",
+      "file": "pkg/resource/job_run/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeVirtualCluster",
+      "type": "control_plane",
+      "file": "pkg/resource/virtual_cluster/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "StartJobRun",
+      "type": "control_plane",
+      "file": "pkg/resource/job_run/sdk.go",
+      "line": 217
+    },
+    {
+      "name": "CreateJobTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateManagedEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateSecurityConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteJobTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteManagedEndpoint",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeJobTemplate",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeManagedEndpoint",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeSecurityConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetManagedEndpointSessionCredentials",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListJobRuns",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListJobTemplates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListManagedEndpoints",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListSecurityConfigurations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVirtualClusters",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

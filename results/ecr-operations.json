@@ -1,0 +1,303 @@
+{
+  "service_name": "ecr",
+  "total_operations": 49,
+  "supported_operations": 19,
+  "control_plane_operations": 29,
+  "supported_control_plane_operations": 19,
+  "operations": [
+    {
+      "name": "CreatePullThroughCacheRule",
+      "type": "control_plane",
+      "file": "pkg/resource/pull_through_cache_rule/sdk.go",
+      "line": 177
+    },
+    {
+      "name": "CreateRepository",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/sdk.go",
+      "line": 210
+    },
+    {
+      "name": "DeleteLifecyclePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 185
+    },
+    {
+      "name": "DeletePullThroughCacheRule",
+      "type": "control_plane",
+      "file": "pkg/resource/pull_through_cache_rule/sdk.go",
+      "line": 311
+    },
+    {
+      "name": "DeleteRepository",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 296
+    },
+    {
+      "name": "DeleteRepositoryPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 296
+    },
+    {
+      "name": "DescribePullThroughCacheRules",
+      "type": "control_plane",
+      "file": "pkg/resource/pull_through_cache_rule/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "DescribeRepositories",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "GetLifecyclePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/hook.go",
+      "line": 120
+    },
+    {
+      "name": "GetRepositoryPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/hook.go",
+      "line": 89
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/hook.go",
+      "line": 142
+    },
+    {
+      "name": "PutImage",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 38
+    },
+    {
+      "name": "PutImageScanningConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 38
+    },
+    {
+      "name": "PutImageTagMutability",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 40
+    },
+    {
+      "name": "PutLifecyclePolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 42
+    },
+    {
+      "name": "SetRepositoryPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 43
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 240
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/repository/custom_update_api.go",
+      "line": 226
+    },
+    {
+      "name": "UpdatePullThroughCacheRule",
+      "type": "control_plane",
+      "file": "pkg/resource/pull_through_cache_rule/sdk.go",
+      "line": 252
+    },
+    {
+      "name": "BatchCheckLayerAvailability",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchDeleteImage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchGetImage",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "BatchGetRepositoryScanningConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CompleteLayerUpload",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateRepositoryCreationTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRegistryPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteRepositoryCreationTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImageReplicationStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeImageScanFindings",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRegistry",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeRepositoryCreationTemplates",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccountSetting",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAuthorizationToken",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDownloadUrlForLayer",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetLifecyclePolicyPreview",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRegistryPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetRegistryScanningConfiguration",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "InitiateLayerUpload",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListImages",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutAccountSetting",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRegistryPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutRegistryScanningConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutReplicationConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartImageScan",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "StartLifecyclePolicyPreview",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateRepositoryCreationTemplate",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UploadLayerPart",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ValidatePullThroughCacheRule",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

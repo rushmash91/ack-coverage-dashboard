@@ -1,0 +1,429 @@
+{
+  "service_name": "route53",
+  "total_operations": 70,
+  "supported_operations": 12,
+  "control_plane_operations": 37,
+  "supported_control_plane_operations": 12,
+  "operations": [
+    {
+      "name": "ChangeResourceRecordSets",
+      "type": "control_plane",
+      "file": "pkg/resource/record_set/hooks.go",
+      "line": 116
+    },
+    {
+      "name": "ChangeTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/health_check/hooks.go",
+      "line": 323
+    },
+    {
+      "name": "CreateHealthCheck",
+      "type": "control_plane",
+      "file": "pkg/resource/health_check/sdk.go",
+      "line": 290
+    },
+    {
+      "name": "CreateHostedZone",
+      "type": "control_plane",
+      "file": "pkg/resource/hosted_zone/sdk.go",
+      "line": 195
+    },
+    {
+      "name": "DeleteHealthCheck",
+      "type": "control_plane",
+      "file": "pkg/resource/health_check/sdk.go",
+      "line": 600
+    },
+    {
+      "name": "DeleteHostedZone",
+      "type": "control_plane",
+      "file": "pkg/resource/hosted_zone/sdk.go",
+      "line": 345
+    },
+    {
+      "name": "GetChange",
+      "type": "control_plane",
+      "file": "pkg/resource/record_set/hooks.go",
+      "line": 268
+    },
+    {
+      "name": "GetHealthCheck",
+      "type": "control_plane",
+      "file": "pkg/resource/health_check/sdk.go",
+      "line": 79
+    },
+    {
+      "name": "GetHostedZone",
+      "type": "control_plane",
+      "file": "pkg/resource/hosted_zone/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "ListResourceRecordSets",
+      "type": "control_plane",
+      "file": "pkg/resource/record_set/hooks.go",
+      "line": 327
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/resource/health_check/hooks.go",
+      "line": 400
+    },
+    {
+      "name": "UpdateHealthCheck",
+      "type": "control_plane",
+      "file": "pkg/resource/health_check/hooks.go",
+      "line": 25
+    },
+    {
+      "name": "ActivateKeySigningKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "AssociateVPCWithHostedZone",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ChangeCidrCollection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateCidrCollection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateKeySigningKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateQueryLoggingConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateReusableDelegationSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrafficPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrafficPolicyInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateTrafficPolicyVersion",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "CreateVPCAssociationAuthorization",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeactivateKeySigningKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteCidrCollection",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteKeySigningKey",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteQueryLoggingConfig",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteReusableDelegationSet",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrafficPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteTrafficPolicyInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteVPCAssociationAuthorization",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisableHostedZoneDNSSEC",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DisassociateVPCFromHostedZone",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableHostedZoneDNSSEC",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetAccountLimit",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetCheckerIpRanges",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetDNSSEC",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetGeoLocation",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetHealthCheckCount",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetHealthCheckLastFailureReason",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetHealthCheckStatus",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetHostedZoneCount",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetHostedZoneLimit",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetQueryLoggingConfig",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetReusableDelegationSet",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetReusableDelegationSetLimit",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTrafficPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTrafficPolicyInstance",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetTrafficPolicyInstanceCount",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCidrBlocks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCidrCollections",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListCidrLocations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListGeoLocations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHealthChecks",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHostedZones",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHostedZonesByName",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListHostedZonesByVPC",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListQueryLoggingConfigs",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListReusableDelegationSets",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResources",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrafficPolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrafficPolicyInstances",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrafficPolicyInstancesByHostedZone",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrafficPolicyInstancesByPolicy",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTrafficPolicyVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListVPCAssociationAuthorizations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TestDNSAnswer",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateHostedZoneComment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTrafficPolicyComment",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UpdateTrafficPolicyInstance",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

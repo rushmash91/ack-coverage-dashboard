@@ -1,0 +1,195 @@
+{
+  "service_name": "efs",
+  "total_operations": 31,
+  "supported_operations": 25,
+  "control_plane_operations": 28,
+  "supported_control_plane_operations": 25,
+  "operations": [
+    {
+      "name": "CreateAccessPoint",
+      "type": "control_plane",
+      "file": "pkg/resource/access_point/sdk.go",
+      "line": 241
+    },
+    {
+      "name": "CreateFileSystem",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/sdk.go",
+      "line": 269
+    },
+    {
+      "name": "CreateMountTarget",
+      "type": "control_plane",
+      "file": "pkg/resource/mount_target/sdk.go",
+      "line": 203
+    },
+    {
+      "name": "CreateTags",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 40
+    },
+    {
+      "name": "DeleteAccessPoint",
+      "type": "control_plane",
+      "file": "pkg/resource/access_point/sdk.go",
+      "line": 429
+    },
+    {
+      "name": "DeleteFileSystem",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 248
+    },
+    {
+      "name": "DeleteFileSystemPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 248
+    },
+    {
+      "name": "DeleteMountTarget",
+      "type": "control_plane",
+      "file": "pkg/resource/mount_target/sdk.go",
+      "line": 318
+    },
+    {
+      "name": "DeleteTags",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 40
+    },
+    {
+      "name": "DescribeAccessPoints",
+      "type": "control_plane",
+      "file": "pkg/resource/access_point/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "DescribeBackupPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 149
+    },
+    {
+      "name": "DescribeFileSystemPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 176
+    },
+    {
+      "name": "DescribeFileSystems",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/sdk.go",
+      "line": 81
+    },
+    {
+      "name": "DescribeLifecycleConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 199
+    },
+    {
+      "name": "DescribeMountTargets",
+      "type": "control_plane",
+      "file": "pkg/resource/mount_target/sdk.go",
+      "line": 77
+    },
+    {
+      "name": "DescribeMountTargetSecurityGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/mount_target/hooks.go",
+      "line": 102
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 39
+    },
+    {
+      "name": "ModifyMountTargetSecurityGroups",
+      "type": "control_plane",
+      "file": "pkg/resource/mount_target/hooks.go",
+      "line": 128
+    },
+    {
+      "name": "PutBackupPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 268
+    },
+    {
+      "name": "PutFileSystemPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 231
+    },
+    {
+      "name": "PutLifecycleConfiguration",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 312
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 39
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/tags/sync.go",
+      "line": 39
+    },
+    {
+      "name": "UpdateFileSystem",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 334
+    },
+    {
+      "name": "UpdateFileSystemProtection",
+      "type": "control_plane",
+      "file": "pkg/resource/file_system/hooks.go",
+      "line": 334
+    },
+    {
+      "name": "CreateReplicationConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DeleteReplicationConfiguration",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeAccountPreferences",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeReplicationConfigurations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeTags",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutAccountPreferences",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

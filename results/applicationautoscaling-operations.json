@@ -1,0 +1,93 @@
+{
+  "service_name": "applicationautoscaling",
+  "total_operations": 14,
+  "supported_operations": 6,
+  "control_plane_operations": 10,
+  "supported_control_plane_operations": 6,
+  "operations": [
+    {
+      "name": "DeleteScalingPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/scaling_policy/sdk.go",
+      "line": 699
+    },
+    {
+      "name": "DeregisterScalableTarget",
+      "type": "control_plane",
+      "file": "pkg/resource/scalable_target/sdk.go",
+      "line": 396
+    },
+    {
+      "name": "DescribeScalableTargets",
+      "type": "control_plane",
+      "file": "pkg/resource/scalable_target/custom_api.go",
+      "line": 28
+    },
+    {
+      "name": "DescribeScalingPolicies",
+      "type": "control_plane",
+      "file": "pkg/resource/scaling_policy/custom_api.go",
+      "line": 38
+    },
+    {
+      "name": "PutScalingPolicy",
+      "type": "control_plane",
+      "file": "pkg/resource/scaling_policy/sdk.go",
+      "line": 305
+    },
+    {
+      "name": "RegisterScalableTarget",
+      "type": "control_plane",
+      "file": "pkg/resource/scalable_target/sdk.go",
+      "line": 210
+    },
+    {
+      "name": "DeleteScheduledAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeScalingActivities",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "DescribeScheduledActions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetPredictiveScalingForecast",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListTagsForResource",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PutScheduledAction",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}

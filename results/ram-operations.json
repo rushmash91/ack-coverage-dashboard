@@ -1,0 +1,213 @@
+{
+  "service_name": "ram",
+  "total_operations": 34,
+  "supported_operations": 18,
+  "control_plane_operations": 24,
+  "supported_control_plane_operations": 18,
+  "operations": [
+    {
+      "name": "AssociateResourceShare",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/hooks.go",
+      "line": 163
+    },
+    {
+      "name": "AssociateResourceSharePermission",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/hooks.go",
+      "line": 163
+    },
+    {
+      "name": "CreatePermission",
+      "type": "control_plane",
+      "file": "pkg/resource/permission/hooks.go",
+      "line": 100
+    },
+    {
+      "name": "CreatePermissionVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/permission/hooks.go",
+      "line": 100
+    },
+    {
+      "name": "CreateResourceShare",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/sdk.go",
+      "line": 222
+    },
+    {
+      "name": "DeletePermission",
+      "type": "control_plane",
+      "file": "pkg/resource/permission/hooks.go",
+      "line": 207
+    },
+    {
+      "name": "DeletePermissionVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/permission/hooks.go",
+      "line": 207
+    },
+    {
+      "name": "DeleteResourceShare",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/sdk.go",
+      "line": 436
+    },
+    {
+      "name": "DisassociateResourceShare",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/hooks.go",
+      "line": 146
+    },
+    {
+      "name": "DisassociateResourceSharePermission",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/hooks.go",
+      "line": 146
+    },
+    {
+      "name": "GetPermission",
+      "type": "control_plane",
+      "file": "pkg/resource/permission/sdk.go",
+      "line": 78
+    },
+    {
+      "name": "GetResourceShareAssociations",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/hooks.go",
+      "line": 335
+    },
+    {
+      "name": "GetResourceShares",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/sdk.go",
+      "line": 82
+    },
+    {
+      "name": "ListResourceSharePermissions",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/hooks.go",
+      "line": 219
+    },
+    {
+      "name": "SetDefaultPermissionVersion",
+      "type": "control_plane",
+      "file": "pkg/resource/permission/hooks.go",
+      "line": 176
+    },
+    {
+      "name": "TagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/permission/hooks.go",
+      "line": 266
+    },
+    {
+      "name": "UntagResource",
+      "type": "control_plane",
+      "file": "pkg/resource/permission/hooks.go",
+      "line": 254
+    },
+    {
+      "name": "UpdateResourceShare",
+      "type": "control_plane",
+      "file": "pkg/resource/resource_share/sdk.go",
+      "line": 385
+    },
+    {
+      "name": "AcceptResourceShareInvitation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "EnableSharingWithAwsOrganization",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResourcePolicies",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "GetResourceShareInvitations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPendingInvitationResources",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPermissionAssociations",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPermissions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPermissionVersions",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListPrincipals",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListReplacePermissionAssociationsWork",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResources",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ListResourceTypes",
+      "type": "data_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PromotePermissionCreatedFromPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "PromoteResourceShareCreatedFromPolicy",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "RejectResourceShareInvitation",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    },
+    {
+      "name": "ReplacePermissionAssociations",
+      "type": "control_plane",
+      "file": "",
+      "line": 0
+    }
+  ]
+}
