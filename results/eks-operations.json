@@ -223,19 +223,19 @@
     },
     {
       "name": "CreateEksAnywhereSubscription",
-      "type": "control_plane",
+      "type": "data_plane",
       "file": "",
       "line": 0
     },
     {
       "name": "DeleteEksAnywhereSubscription",
-      "type": "control_plane",
+      "type": "data_plane",
       "file": "",
       "line": 0
     },
     {
       "name": "DeregisterCluster",
-      "type": "control_plane",
+      "type": "data_plane",
       "file": "",
       "line": 0
     },
@@ -337,13 +337,13 @@
     },
     {
       "name": "RegisterCluster",
-      "type": "control_plane",
+      "type": "data_plane",
       "file": "",
       "line": 0
     },
     {
       "name": "UpdateEksAnywhereSubscription",
-      "type": "control_plane",
+      "type": "data_plane",
       "file": "",
       "line": 0
     }
